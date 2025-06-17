@@ -1,0 +1,1467 @@
+1
+2
+3
+4
+.
+5
+./server.env
+6
+./jvm.options
+7
+./server.xml
+8
+./resources
+9
+./resources/lib
+10
+./resources/lib/emf
+11
+./resources/lib/emf/jaxb-api-2.3.1.jar
+12
+./resources/lib/emf/gmbal-api-only-4.0.2.jar
+13
+./resources/lib/emf/SDORegistry.jar
+14
+./resources/lib/emf/org.eclipse.emf.common.jar
+15
+./resources/lib/emf/org.eclipse.emf.ecore.xmi.jar
+16
+./resources/lib/emf/javax.jws-api-1.1.jar
+17
+./resources/lib/emf/streambuffer-1.5.9.jar
+18
+./resources/lib/emf/org.eclipse.emf.ecore.jar
+19
+./resources/lib/emf/jaxb-runtime-2.3.3.jar
+20
+./resources/lib/emf/javax.xml.soap-api-1.4.0.jar
+21
+./resources/lib/emf/org.eclipse.emf.commonj.sdo.jar
+22
+./resources/lib/emf/jaxb-core-2.3.0.1.jar
+23
+./resources/lib/emf/javax.transaction-api-1.3.jar
+24
+./resources/lib/emf/org.eclipse.emf.ecore.change.jar
+25
+./resources/lib/emf/com.ibm.ws.emf.jar
+26
+./resources/lib/emf/saaj-impl-1.5.2.jar
+27
+./resources/lib/emf/stax-ex-1.8.3.jar
+28
+./resources/lib/emf/org.eclipse.wst.common.emf_1.2.3.v201012100400.jar
+29
+./resources/lib/emf/policy-2.7.10.jar
+30
+./resources/lib/emf/jaxws-api-2.3.1.jar
+31
+./resources/lib/emf/org.eclipse.emf.ecore.sdo.jar
+32
+./resources/lib/emf/jaxws-rt-2.3.3.jar
+33
+./resources/lib/zconn
+34
+./resources/lib/birt
+35
+./resources/lib/birt/chartexamplescoreapi.jar
+36
+./resources/lib/birt/js.jar
+37
+./resources/lib/birt/dataaggregationapi.jar
+38
+./resources/lib/birt/mssql-jdbc-6.4.0.jre8.jar
+39
+./resources/lib/birt/chartengineapi.jar
+40
+./resources/lib/birt/emitterconfig.jar
+41
+./resources/lib/birt/org.eclipse.birt.report.model_4.8.0.v201806261756.jar
+42
+./resources/lib/birt/odadesignapi.jar
+43
+./resources/lib/birt/scriptapi.jar
+44
+./resources/lib/birt/org.w3c.css.sac_1.3.1.v200903091627.jar
+45
+./resources/lib/birt/org.eclipse.birt.axis.overlay_4.8.0.v201806261756.jar
+46
+./resources/lib/birt/db2jcc.jar
+47
+./resources/lib/birt/dteapi.jar
+48
+./resources/lib/birt/jdbc-4.10.8.1.jar
+49
+./resources/lib/birt/engineapi.jar
+50
+./resources/lib/birt/dataextraction.jar
+51
+./resources/lib/birt/org.apache.commons.codec_1.9.0.v20170208-1614.jar
+52
+./resources/lib/birt/modelodaapi.jar
+53
+./resources/lib/birt/flute.jar
+54
+./resources/lib/birt/modelapi.jar
+55
+./resources/lib/birt/odaconnectivity.jar
+56
+./resources/lib/birt/com.ibm.icu_58.2.0.v20170418-1837.jar
+57
+./resources/lib/birt/coreapi.jar
+58
+./resources/lib/birt/db2jcc_license_cisuz.jar
+59
+./resources/lib/birt/crosstabcoreapi.jar
+60
+./resources/lib/birt/chartitemapi.jar
+61
+./resources/lib/birt/db2jcc_license_cu.jar
+62
+./resources/lib/birt/dataadapterapi.jar
+63
+./resources/lib/jlog
+64
+./resources/lib/jlog/jlog.jar
+65
+./resources/lib/dwc
+66
+./resources/lib/dwc/twswebuiauiml.jar
+67
+./resources/lib/dwc/twswebuitraces.jar
+68
+./resources/lib/dwc/twswebuireport.jar
+69
+./resources/lib/dwc/twswebuimodeling.jar
+70
+./resources/lib/dwc/twswebuibus.jar
+71
+./resources/lib/dwc/tdwcsimpleui_public.jar
+72
+./resources/lib/dwc/twswebuiprefer.jar
+73
+./resources/lib/dwc/twswebuidao.jar
+74
+./resources/lib/dwc/twaclient.jar
+75
+./resources/lib/dwc/twswebuigraphviewplan.jar
+76
+./resources/lib/dwc/twswebuiappservices.jar
+77
+./resources/lib/dwc/tdwcdevice.jar
+78
+./resources/lib/dwc/twswebuito.jar
+79
+./resources/lib/dwc/tdwccronparser.jar
+80
+./resources/lib/dwc/twswebuiservices.jar
+81
+./resources/lib/dwc/twswebuireportplan.jar
+82
+./resources/lib/dwc/twswebuipm.jar
+83
+./resources/lib/dwc/twswebuiawt.jar
+84
+./resources/lib/dwc/twswebuigraphview.jar
+85
+./resources/lib/dwc/twswebuiajaxcommon.jar
+86
+./resources/lib/dwc/tdwc_charts.jar
+87
+./resources/lib/dwc/twswebuiedwa.jar
+88
+./resources/lib/dwc/twswebuibase.jar
+89
+./resources/lib/dwc/tdwcsimpleui.jar
+90
+./apps
+91
+./apps/ZConnector.ear
+92
+./apps/DWC.ear
+93
+./apps/ZOSResourceAdapter.rar
+94
+./configDropins
+95
+./configDropins/defaults
+96
+./configDropins/defaults/ssl_config.xml
+97
+./configDropins/defaults/ports_config.xml
+98
+./configDropins/templates
+99
+./configDropins/templates/ports_variables.xml
+100
+./configDropins/templates/authentication
+101
+./configDropins/templates/authentication/auth_IDS_config.xml
+102
+./configDropins/templates/authentication/auth_OpenLDAP_config.xml
+103
+./configDropins/templates/authentication/openid_connect.xml
+104
+./configDropins/templates/authentication/auth_basicRegistry_config.xml
+105
+./configDropins/templates/authentication/auth_AD_config.xml
+106
+./configDropins/templates/authentication/authentication_config.xml
+107
+./configDropins/templates/widget_config.xml
+108
+./configDropins/templates/datasources
+109
+./configDropins/templates/datasources/datasource_db2z.xml
+110
+./configDropins/templates/datasources/datasource_derby.xml
+111
+./configDropins/templates/datasources/datasource_ids.xml
+112
+./configDropins/templates/datasources/datasource_oracle.xml
+113
+./configDropins/templates/datasources/datasource_db2.xml
+114
+./configDropins/templates/datasources/datasource_mssql.xml
+115
+./configDropins/templates/adminCenter.xml
+116
+./configDropins/templates/zconnectors
+117
+./configDropins/templates/zconnectors/connectionFactory.xml
+118
+./configDropins/templates/zconnectors/zosEngineDatasource.xml
+119
+./configDropins/templates/ssl_variables.xml
+120
+./configDropins/templates/trace.xml
+121
+./platform
+122
+./platform/plugins
+123
+./platform/plugins/org.eclipse.datatools.enablement.oda.xml_1.4.1.201712071719.jar
+124
+./platform/plugins/org.eclipse.datatools.enablement.ibm.informix.dbdefinition_1.2.1.201712071719.jar
+125
+./platform/plugins/org.eclipse.datatools.connectivity.db.generic_1.2.1.201712071719.jar
+126
+./platform/plugins/org.eclipse.equinox.app_1.3.500.v20171221-2204.jar
+127
+./platform/plugins/org.eclipse.datatools.enablement.sap.maxdb.dbdefinition_1.2.1.201712071719.jar
+128
+./platform/plugins/org.eclipse.birt.report.engine.emitter.postscript_4.8.0.v201806261756.jar
+129
+./platform/plugins/org.eclipse.birt.data_4.8.0.v201806261756.jar
+130
+./platform/plugins/org.apache.derby_10.11.1.1_v201605202053.jar
+131
+./platform/plugins/org.tukaani.xz_1.8.0.v20180207-1613.jar
+132
+./platform/plugins/org.eclipse.datatools.enablement.ibm.db2.iseries_1.2.1.201712071719.jar
+133
+./platform/plugins/org.eclipse.datatools.connectivity.oda_3.6.1.201712071719.jar
+134
+./platform/plugins/org.eclipse.birt.core.script.function_4.8.0.v201806261756.jar
+135
+./platform/plugins/org.eclipse.datatools.sqltools.result_1.3.1.201712071719.jar
+136
+./platform/plugins/org.eclipse.birt.report.engine.fonts_4.8.0.v201806261756
+137
+./platform/plugins/org.eclipse.birt.report.engine.fonts_4.8.0.v201806261756/fontsConfig_pdf.xml
+138
+./platform/plugins/org.eclipse.birt.report.engine.fonts_4.8.0.v201806261756/fontsConfig.xml
+139
+./platform/plugins/org.eclipse.birt.report.engine.fonts_4.8.0.v201806261756/META-INF
+140
+./platform/plugins/org.eclipse.birt.report.engine.fonts_4.8.0.v201806261756/META-INF/ECLIPSE_.RSA
+141
+./platform/plugins/org.eclipse.birt.report.engine.fonts_4.8.0.v201806261756/META-INF/ECLIPSE_.SF
+142
+./platform/plugins/org.eclipse.birt.report.engine.fonts_4.8.0.v201806261756/META-INF/MANIFEST.MF
+143
+./platform/plugins/org.eclipse.birt.report.engine.fonts_4.8.0.v201806261756/about.html
+144
+./platform/plugins/org.eclipse.birt.report.engine.fonts_4.8.0.v201806261756/fontsConfig_linux.xml
+145
+./platform/plugins/org.eclipse.birt.report.engine.fonts_4.8.0.v201806261756/fontsConfig_win32.xml
+146
+./platform/plugins/org.eclipse.datatools.connectivity.oda.profile_3.4.1.201712071719.jar
+147
+./platform/plugins/org.apache.lucene.core_6.1.0.v20170814-1820.jar
+148
+./platform/plugins/org.apache.batik.transcoder_1.7.0.v201011041433.jar
+149
+./platform/plugins/org.eclipse.birt.data.oda.mongodb_4.8.0.v201806261756.jar
+150
+./platform/plugins/org.eclipse.birt.core_4.8.0.v201806261756.jar
+151
+./platform/plugins/org.eclipse.equinox.p2.metadata_2.4.0.v20180320-1220.jar
+152
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756
+153
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/lib
+154
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/lib/poi-ooxml-3.9-20121203.jar
+155
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/lib/dom4j-1.6.1.jar
+156
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/lib/poi-ooxml-schemas-3.9-20121203.jar
+157
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/lib/xmlbeans-2.3.0.jar
+158
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/lib/commons-codec-1.5.jar
+159
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/plugin.xml
+160
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/COPYING
+161
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/about_files
+162
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/about_files/LICENSE
+163
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/about_files/NOTICE
+164
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/about_files/LICENSE.txt
+165
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/META-INF
+166
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/META-INF/ECLIPSE_.RSA
+167
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/META-INF/ECLIPSE_.SF
+168
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/META-INF/MANIFEST.MF
+169
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/about.html
+170
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/logo.png
+171
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk
+172
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co
+173
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft
+174
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt
+175
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters
+176
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel
+177
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/Coordinate.class
+178
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/handlers
+179
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/handlers/TopLevelTableCellHandler.class
+180
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/handlers/AbstractRealTableCellHandler.class
+181
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/handlers/FlattenedTableHandler.class
+182
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/handlers/AbstractRealListHandler.class
+183
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/handlers/NestedListContentHandler.class
+184
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/handlers/FlattenedTableRowHandler.class
+185
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/handlers/StringCellHandler.class
+186
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/handlers/PageHandler.class
+187
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/handlers/TopLevelListHandler.class
+188
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/handlers/TopLevelTableRowHandler.class
+189
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/handlers/FlattenedTableCellHandler.class
+190
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/handlers/NestedListHandler.class
+191
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/handlers/AbstractRealTableHandler.class
+192
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/handlers/NestedTableRowHandler.class
+193
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/handlers/CellContentHandler.class
+194
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/handlers/TopLevelTableHandler.class
+195
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/handlers/TopLevelContentHandler.class
+196
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/handlers/AbstractRealTableRowHandler.class
+197
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/handlers/AbstractHandler.class
+198
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/handlers/IHandler.class
+199
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/handlers/NestedTableCellHandler.class
+200
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/handlers/ITableHandler.class
+201
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/handlers/FlattenedListHandler.class
+202
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/handlers/NestedTableContainer.class
+203
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/handlers/NestedTableHandler.class
+204
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/FontManager$FontPair.class
+205
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/AreaBorders.class
+206
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/StyleManagerXUtils.class
+207
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/CellImage.class
+208
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/XlsEmitter.class
+209
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/StyleManagerXUtils$1.class
+210
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/ExcelEmitter.class
+211
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/FontManager.class
+212
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/FilteredSheet$FilteredIterator.class
+213
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/EmitterServices.class
+214
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/StyleManagerUtils.class
+215
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/framework
+216
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/framework/ExcelEmitterPlugin.class
+217
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/framework/Logger.class
+218
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/StyleManagerHUtils$1.class
+219
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/StyleManager$StylePair.class
+220
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/DateFormatConverter.class
+221
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/StyleManagerHUtils.class
+222
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/DateFormatConverter$DateFormatTokenizer.class
+223
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/Area.class
+224
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/XlsxEmitter.class
+225
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/StyleManagerUtils$Factory.class
+226
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/ClientAnchorConversions.class
+227
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/BirtStyle.class
+228
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/FilteredSheet.class
+229
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/HandlerState.class
+230
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/StyleManager.class
+231
+./platform/plugins/uk.co.spudsoft.birt.emitters.excel_4.8.0.v201806261756/uk/co/spudsoft/birt/emitters/excel/RichTextRun.class
+232
+./platform/plugins/org.mozilla.javascript_1.7.5.v201504281450.jar
+233
+./platform/plugins/org.eclipse.birt.report.engine.emitter.ods_4.8.0.v201806261756.jar
+234
+./platform/plugins/org.eclipse.equinox.p2.publisher_1.5.0.v20180320-1332.jar
+235
+./platform/plugins/org.apache.batik.ext.awt.extension_1.7.0.v201806261756.jar
+236
+./platform/plugins/org.w3c.dom.svg_1.1.0.v201011041433.jar
+237
+./platform/plugins/org.eclipse.datatools.modelbase.sql.query_1.3.1.201712071719.jar
+238
+./platform/plugins/org.eclipse.birt.report.engine.emitter.config.wpml_4.8.0.v201806261756.jar
+239
+./platform/plugins/org.eclipse.birt.data.oda.pojo_4.8.0.v201806261756.jar
+240
+./platform/plugins/org.eclipse.core.runtime_3.14.0.v20180417-0825.jar
+241
+./platform/plugins/org.eclipse.birt.report.engine.emitter.pptx_4.8.0.v201806261756.jar
+242
+./platform/plugins/org.eclipse.datatools.enablement.oracle.dbdefinition_1.2.1.201712071719.jar
+243
+./platform/plugins/org.eclipse.equinox.p2.garbagecollector_1.1.0.v20180103-0918.jar
+244
+./platform/plugins/org.eclipse.datatools.enablement.postgresql_1.3.1.201712071719.jar
+245
+./platform/plugins/org.eclipse.emf.common_2.14.0.v20180527-1134.jar
+246
+./platform/plugins/org.eclipse.emf.ecore.change_2.12.0.v20180125-1130.jar
+247
+./platform/plugins/org.apache.felix.scr_2.0.14.v20180117-1452.jar
+248
+./platform/plugins/org.eclipse.birt.report.data.oda.excel_4.8.0.v201806261756.jar
+249
+./platform/plugins/org.eclipse.datatools.enablement.msft.sqlserver_1.2.1.201712071719.jar
+250
+./platform/plugins/org.eclipse.birt.report.engine.script.javascript_4.8.0.v201806261756.jar
+251
+./platform/plugins/org.eclipse.birt.report.item.crosstab.core_4.8.0.v201806261756.jar
+252
+./platform/plugins/org.eclipse.datatools.sqltools.parsers.sql.lexer_1.2.1.201712071719.jar
+253
+./platform/plugins/org.eclipse.birt.report.model_4.8.0.v201806261756.jar
+254
+./platform/plugins/org.eclipse.birt.report.data.oda.hive_4.8.0.v201806261756.jar
+255
+./platform/plugins/org.eclipse.birt.report.engine.emitter.docx_4.8.0.v201806261756.jar
+256
+./platform/plugins/org.eclipse.equinox.p2.metadata.repository_1.3.0.v20180302-1057.jar
+257
+./platform/plugins/org.eclipse.equinox.p2.extensionlocation_1.3.0.v20180103-0918.jar
+258
+./platform/plugins/org.eclipse.birt.chart.engine_4.8.0.v201806261756.jar
+259
+./platform/plugins/org.eclipse.birt.chart.reportitem_4.8.0.v201806261756.jar
+260
+./platform/plugins/org.eclipse.birt.report.data.oda.jdbc.dbprofile_4.8.0.v201806261756.jar
+261
+./platform/plugins/org.eclipse.birt.report.engine.emitter.odt_4.8.0.v201806261756.jar
+262
+./platform/plugins/org.eclipse.equinox.p2.director_2.4.0.v20180302-1057.jar
+263
+./platform/plugins/org.eclipse.equinox.p2.touchpoint.eclipse_2.2.0.v20180302-1057.jar
+264
+./platform/plugins/org.eclipse.datatools.sqltools.parsers.sql_1.2.1.201712071719.jar
+265
+./platform/plugins/org.eclipse.datatools.connectivity.apache.derby_1.2.1.201712071719.jar
+266
+./platform/plugins/org.eclipse.birt.report.data.oda.xml_4.8.0.v201806261756.jar
+267
+./platform/plugins/org.apache.batik.bridge_1.7.0.v201011041433.jar
+268
+./platform/plugins/org.eclipse.birt.data.aggregation_4.8.0.v201806261756.jar
+269
+./platform/plugins/org.w3c.dom.events_3.0.0.draft20060413_v201105210656.jar
+270
+./platform/plugins/org.eclipse.birt.report.data.oda.jdbc_4.8.0.v201806261756
+271
+./platform/plugins/org.eclipse.birt.report.data.oda.jdbc_4.8.0.v201806261756/.options
+272
+./platform/plugins/org.eclipse.birt.report.data.oda.jdbc_4.8.0.v201806261756/drivers
+273
+./platform/plugins/org.eclipse.birt.report.data.oda.jdbc_4.8.0.v201806261756/drivers/mssql-jdbc-6.4.0.jre8.jar
+274
+./platform/plugins/org.eclipse.birt.report.data.oda.jdbc_4.8.0.v201806261756/drivers/db2jcc.jar
+275
+./platform/plugins/org.eclipse.birt.report.data.oda.jdbc_4.8.0.v201806261756/drivers/jdbc-4.10.8.1.jar
+276
+./platform/plugins/org.eclipse.birt.report.data.oda.jdbc_4.8.0.v201806261756/drivers/readme.txt
+277
+./platform/plugins/org.eclipse.birt.report.data.oda.jdbc_4.8.0.v201806261756/drivers/db2jcc_license_cisuz.jar
+278
+./platform/plugins/org.eclipse.birt.report.data.oda.jdbc_4.8.0.v201806261756/drivers/ojdbc8.jar
+279
+./platform/plugins/org.eclipse.birt.report.data.oda.jdbc_4.8.0.v201806261756/drivers/db2jcc_license_cu.jar
+280
+./platform/plugins/org.eclipse.birt.report.data.oda.jdbc_4.8.0.v201806261756/plugin.xml
+281
+./platform/plugins/org.eclipse.birt.report.data.oda.jdbc_4.8.0.v201806261756/schema
+282
+./platform/plugins/org.eclipse.birt.report.data.oda.jdbc_4.8.0.v201806261756/schema/driverinfo.exsd
+283
+./platform/plugins/org.eclipse.birt.report.data.oda.jdbc_4.8.0.v201806261756/META-INF
+284
+./platform/plugins/org.eclipse.birt.report.data.oda.jdbc_4.8.0.v201806261756/META-INF/ECLIPSE_.RSA
+285
+./platform/plugins/org.eclipse.birt.report.data.oda.jdbc_4.8.0.v201806261756/META-INF/ECLIPSE_.SF
+286
+./platform/plugins/org.eclipse.birt.report.data.oda.jdbc_4.8.0.v201806261756/META-INF/MANIFEST.MF
+287
+./platform/plugins/org.eclipse.birt.report.data.oda.jdbc_4.8.0.v201806261756/about.html
+288
+./platform/plugins/org.eclipse.birt.report.data.oda.jdbc_4.8.0.v201806261756/oda-jdbc.jar
+289
+./platform/plugins/org.eclipse.birt.report.data.oda.jdbc_4.8.0.v201806261756/plugin.properties
+290
+./platform/plugins/org.eclipse.equinox.ds_1.5.100.v20171221-2204.jar
+291
+./platform/plugins/org.eclipse.equinox.simpleconfigurator_1.3.0.v20180502-1828.jar
+292
+./platform/plugins/org.eclipse.birt.report.engine.emitter.config_4.8.0.v201806261756.jar
+293
+./platform/plugins/org.eclipse.equinox.frameworkadmin_2.1.0.v20180131-0638.jar
+294
+./platform/plugins/org.eclipse.birt.report.model.adapter.oda_4.8.0.v201806261756.jar
+295
+./platform/plugins/org.eclipse.birt.report.engine.emitter.config.ods_4.8.0.v201806261756.jar
+296
+./platform/plugins/org.eclipse.birt.report.engine.emitter.config.odt_4.8.0.v201806261756.jar
+297
+./platform/plugins/org.eclipse.equinox.registry_3.8.0.v20180426-1327.jar
+298
+./platform/plugins/org.eclipse.core.jobs_3.10.0.v20180427-1454.jar
+299
+./platform/plugins/org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb_4.8.0.v201806261756.jar
+300
+./platform/plugins/org.w3c.dom.svg.extension_1.1.0.v201806261756.jar
+301
+./platform/plugins/org.eclipse.birt.report.engine.dataextraction_4.8.0.v201806261756.jar
+302
+./platform/plugins/net.sourceforge.lpg.lpgjavaruntime_1.1.0.v201004271650.jar
+303
+./platform/plugins/org.eclipse.equinox.p2.jarprocessor_1.1.0.v20180512-1128.jar
+304
+./platform/plugins/org.eclipse.equinox.p2.publisher.eclipse_1.3.0.v20180320-1332.jar
+305
+./platform/plugins/org.eclipse.birt.report.engine.emitter.config.pdf_4.8.0.v201806261756.jar
+306
+./platform/plugins/org.eclipse.datatools.enablement.ibm.informix_1.2.1.201712071719.jar
+307
+./platform/plugins/org.eclipse.datatools.connectivity.apache.derby.dbdefinition_1.2.1.201712071719.jar
+308
+./platform/plugins/org.eclipse.birt.report.data.adapter_4.8.0.v201806261756.jar
+309
+./platform/plugins/org.w3c.css.sac_1.3.1.v200903091627.jar
+310
+./platform/plugins/org.eclipse.datatools.connectivity_1.14.1.201712071719.jar
+311
+./platform/plugins/org.eclipse.emf.ecore_2.14.0.v20180529-1144.jar
+312
+./platform/plugins/org.eclipse.datatools.modelbase.dbdefinition_1.2.1.201712071719.jar
+313
+./platform/plugins/org.eclipse.birt.report.engine.dataextraction.csv_4.8.0.v201806261756.jar
+314
+./platform/plugins/org.eclipse.birt.api_4.8.0.v201806261756.jar
+315
+./platform/plugins/org.eclipse.equinox.p2.repository_2.4.0.v20180512-1128.jar
+316
+./platform/plugins/org.eclipse.core.expressions_3.6.100.v20180426-1644.jar
+317
+./platform/plugins/org.eclipse.birt.report.engine.emitter.odp_4.8.0.v201806261756.jar
+318
+./platform/plugins/org.eclipse.birt.report.engine.emitter.ppt_4.8.0.v201806261756.jar
+319
+./platform/plugins/org.eclipse.equinox.p2.directorywatcher_1.2.0.v20180130-1836.jar
+320
+./platform/plugins/org.sat4j.pb_2.3.5.v201404071733.jar
+321
+./platform/plugins/org.eclipse.datatools.enablement.ibm_1.2.1.201712071719.jar
+322
+./platform/plugins/org.eclipse.datatools.enablement.ibm.db2.zseries_1.2.1.201712071719.jar
+323
+./platform/plugins/org.eclipse.equinox.simpleconfigurator.manipulator_2.1.0.v20180103-0918.jar
+324
+./platform/plugins/org.eclipse.equinox.preferences_3.7.100.v20180510-1129.jar
+325
+./platform/plugins/org.eclipse.datatools.enablement.ibm.db2.zseries.dbdefinition_1.2.1.201712071719.jar
+326
+./platform/plugins/org.eclipse.equinox.p2.core_2.5.0.v20180512-1128.jar
+327
+./platform/plugins/org.eclipse.datatools.sqltools.data.core_1.4.1.201712071719.jar
+328
+./platform/plugins/org.apache.batik.util.gui_1.7.0.v200903091627.jar
+329
+./platform/plugins/org.w3c.dom.smil_1.0.1.v200903091627.jar
+330
+./platform/plugins/org.eclipse.emf.ecore.xmi_2.14.0.v20180129-1548.jar
+331
+./platform/plugins/org.apache.batik.xml_1.7.0.v201011041433.jar
+332
+./platform/plugins/org.eclipse.datatools.enablement.ibm.db2.luw.dbdefinition_1.2.1.201712071719.jar
+333
+./platform/plugins/org.eclipse.birt.report.data.bidi.utils_4.8.0.v201806261756.jar
+334
+./platform/plugins/org.apache.commons.codec_1.9.0.v20170208-1614.jar
+335
+./platform/plugins/javax.xml_1.3.4.v201005080400.jar
+336
+./platform/plugins/org.eclipse.birt.report.engine.emitter.wpml_4.8.0.v201806261756.jar
+337
+./platform/plugins/org.eclipse.equinox.frameworkadmin.equinox_1.1.0.v20180512-1128.jar
+338
+./platform/plugins/org.apache.commons.logging_1.1.1.v201101211721.jar
+339
+./platform/plugins/org.eclipse.equinox.event_1.4.200.v20180426-0845.jar
+340
+./platform/plugins/org.apache.batik.parser_1.7.0.v201011041433.jar
+341
+./platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756
+342
+./platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/lib
+343
+./platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/lib/cassandra-thrift-1.1.0.jar
+344
+./platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/lib/slf4j-api-1.6.1.jar
+345
+./platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/lib/hector-core-1.1-2.jar
+346
+./platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/lib/slf4j-license.html
+347
+./platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/lib/README.txt
+348
+./platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/lib/guava-r09.jar
+349
+./platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/lib/commons-lang-2.4.jar
+350
+./platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/lib/slf4j-nop-1.6.1.jar
+351
+./platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/lib/hector-LICENSE
+352
+./platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/lib/libthrift-0.7.0.jar
+353
+./platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/plugin.xml
+354
+./platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/META-INF
+355
+./platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/META-INF/ECLIPSE_.RSA
+356
+./platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/META-INF/ECLIPSE_.SF
+357
+./platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/META-INF/MANIFEST.MF
+358
+./platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/about.html
+359
+./platform/plugins/org.eclipse.datatools.connectivity.oda.design_3.5.1.201712071719.jar
+360
+./platform/plugins/org.eclipse.birt.report.engine.emitter.config.odp_4.8.0.v201806261756.jar
+361
+./platform/plugins/org.eclipse.birt.report.engine_4.8.0.v201806261756.jar
+362
+./platform/plugins/org.eclipse.datatools.connectivity.sqm.core_1.4.1.201712071719.jar
+363
+./platform/plugins/org.eclipse.datatools.enablement.ibm.db2.iseries.dbdefinition_1.2.1.201712071719.jar
+364
+./platform/plugins/org.eclipse.birt.report.engine.emitter.html_4.8.0.v201806261756.jar
+365
+./platform/plugins/javax.wsdl_1.5.1.v201012040544.jar
+366
+./platform/plugins/org.eclipse.birt.report.engine.emitter.config.ppt_4.8.0.v201806261756.jar
+367
+./platform/plugins/org.eclipse.update.configurator_3.4.0.v20180512-1141.jar
+368
+./platform/plugins/org.eclipse.orbit.mongodb_3.2.2.v20170222-2110.jar
+369
+./platform/plugins/org.eclipse.datatools.enablement.ibm.db2_1.2.1.201712071719.jar
+370
+./platform/plugins/org.eclipse.birt.report.engine.emitter.prototype.excel_4.8.0.v201806261756.jar
+371
+./platform/plugins/javax.xml.stream_1.0.1.v201004272200.jar
+372
+./platform/plugins/org.eclipse.birt.chart.device.extension_4.8.0.v201806261756.jar
+373
+./platform/plugins/org.eclipse.datatools.enablement.ibm.db2.luw_1.2.1.201712071719.jar
+374
+./platform/plugins/org.eclipse.datatools.connectivity.dbdefinition.genericJDBC_1.2.1.201712071719.jar
+375
+./platform/plugins/org.eclipse.equinox.p2.artifact.repository_1.2.0.v20180413-0846.jar
+376
+./platform/plugins/org.eclipse.datatools.enablement.sap.maxdb_1.2.1.201712071719.jar
+377
+./platform/plugins/org.eclipse.core.filesystem_1.7.100.v20180304-1102.jar
+378
+./platform/plugins/org.eclipse.datatools.enablement.oracle_1.2.1.201712071719.jar
+379
+./platform/plugins/org.eclipse.datatools.enablement.msft.sqlserver.dbdefinition_1.2.1.201712071719.jar
+380
+./platform/plugins/org.eclipse.datatools.enablement.hsqldb.dbdefinition_1.2.1.201712071719.jar
+381
+./platform/plugins/org.eclipse.birt.report.engine.odf_4.8.0.v201806261756.jar
+382
+./platform/plugins/org.eclipse.equinox.p2.reconciler.dropins_1.2.0.v20180302-1057.jar
+383
+./platform/plugins/org.eclipse.birt.chart.examples.core_4.8.0.v201806261756.jar
+384
+./platform/plugins/org.eclipse.birt.report.engine.emitter.config.docx_4.8.0.v201806261756.jar
+385
+./platform/plugins/org.eclipse.birt.report.engine.emitter.config.html_4.8.0.v201806261756.jar
+386
+./platform/plugins/org.eclipse.datatools.enablement.postgresql.dbdefinition_1.2.1.201712071719.jar
+387
+./platform/plugins/org.eclipse.equinox.common_3.10.0.v20180412-1130.jar
+388
+./platform/plugins/org.eclipse.help_3.8.100.v20180512-1136.jar
+389
+./platform/plugins/org.eclipse.equinox.security_1.2.400.v20171221-2204.jar
+390
+./platform/plugins/org.eclipse.birt.report.engine.ooxml_4.8.0.v201806261756.jar
+391
+./platform/plugins/com.ibm.icu_58.2.0.v20170418-1837.jar
+392
+./platform/plugins/org.eclipse.osgi.compatibility.state_1.1.100.v20180331-1743.jar
+393
+./platform/plugins/org.eclipse.equinox.p2.engine_2.6.0.v20180409-1209.jar
+394
+./platform/plugins/org.eclipse.core.resources_3.13.0.v20180512-1138.jar
+395
+./platform/plugins/org.eclipse.datatools.connectivity.oda.flatfile_3.3.1.201712071719.jar
+396
+./platform/plugins/org.eclipse.birt.report.data.oda.sampledb_4.8.0.v201806261756
+397
+./platform/plugins/org.eclipse.birt.report.data.oda.sampledb_4.8.0.v201806261756/db
+398
+./platform/plugins/org.eclipse.birt.report.data.oda.sampledb_4.8.0.v201806261756/db/BirtSample.jar
+399
+./platform/plugins/org.eclipse.birt.report.data.oda.sampledb_4.8.0.v201806261756/sampledb.jar
+400
+./platform/plugins/org.eclipse.birt.report.data.oda.sampledb_4.8.0.v201806261756/.options
+401
+./platform/plugins/org.eclipse.birt.report.data.oda.sampledb_4.8.0.v201806261756/plugin.xml
+402
+./platform/plugins/org.eclipse.birt.report.data.oda.sampledb_4.8.0.v201806261756/META-INF
+403
+./platform/plugins/org.eclipse.birt.report.data.oda.sampledb_4.8.0.v201806261756/META-INF/ECLIPSE_.RSA
+404
+./platform/plugins/org.eclipse.birt.report.data.oda.sampledb_4.8.0.v201806261756/META-INF/ECLIPSE_.SF
+405
+./platform/plugins/org.eclipse.birt.report.data.oda.sampledb_4.8.0.v201806261756/META-INF/MANIFEST.MF
+406
+./platform/plugins/org.eclipse.birt.report.data.oda.sampledb_4.8.0.v201806261756/about.html
+407
+./platform/plugins/org.eclipse.birt.report.data.oda.sampledb_4.8.0.v201806261756/plugin.properties
+408
+./platform/plugins/org.apache.lucene.analyzers-common_6.1.0.v20161115-1612.jar
+409
+./platform/plugins/org.eclipse.datatools.enablement.mysql.dbdefinition_1.2.1.201712071719.jar
+410
+./platform/plugins/org.eclipse.birt.report.engine.emitter.pdf_4.8.0.v201806261756.jar
+411
+./platform/plugins/org.apache.lucene.queryparser_6.1.0.v20161115-1612.jar
+412
+./platform/plugins/org.apache.batik.dom.svg_1.7.0.v201011041433.jar
+413
+./platform/plugins/org.eclipse.birt.report.engine.emitter.config.pptx_4.8.0.v201806261756.jar
+414
+./platform/plugins/org.eclipse.osgi.util_3.5.0.v20180219-1511.jar
+415
+./platform/plugins/org.eclipse.datatools.connectivity.console.profile_1.2.1.201712071719.jar
+416
+./platform/plugins/org.eclipse.datatools.connectivity.oda.consumer_3.4.1.201712071719.jar
+417
+./platform/plugins/org.eclipse.osgi_3.13.0.v20180409-1500.jar
+418
+./platform/plugins/org.apache.batik.ext.awt_1.7.0.v201011041433.jar
+419
+./platform/plugins/org.eclipse.datatools.enablement.mysql_1.2.1.201712071719.jar
+420
+./platform/plugins/com.lowagie.text_2.1.7.v201004222200.jar
+421
+./platform/plugins/org.apache.batik.svggen_1.7.0.v201011041433.jar
+422
+./platform/plugins/org.eclipse.birt.chart.device.svg_4.8.0.v201806261756.jar
+423
+./platform/plugins/org.apache.poi_3.9.0.v201405241750.jar
+424
+./platform/plugins/org.sat4j.core_2.3.5.v201308161310.jar
+425
+./platform/plugins/org.eclipse.datatools.enablement.oda.ws_1.4.1.201712071719.jar
+426
+./platform/plugins/org.apache.batik.util_1.7.0.v201011041433.jar
+427
+./platform/plugins/org.apache.batik.css_1.7.0.v201011041433.jar
+428
+./platform/plugins/org.eclipse.datatools.sqltools.parsers.sql.query_1.4.1.201712071719.jar
+429
+./platform/plugins/org.eclipse.birt.report.engine.emitter.config.excel_4.8.0.v201806261756.jar
+430
+./platform/plugins/org.eclipse.datatools.modelbase.derby_1.2.1.201712071719.jar
+431
+./platform/plugins/org.eclipse.birt.report.engine.emitter.config.postscript_4.8.0.v201806261756.jar
+432
+./platform/plugins/org.w3c.sac_1.3.0.v201806261756
+433
+./platform/plugins/org.w3c.sac_1.3.0.v201806261756/lib
+434
+./platform/plugins/org.w3c.sac_1.3.0.v201806261756/lib/flute.jar
+435
+./platform/plugins/org.w3c.sac_1.3.0.v201806261756/about.mappings
+436
+./platform/plugins/org.w3c.sac_1.3.0.v201806261756/about.properties
+437
+./platform/plugins/org.w3c.sac_1.3.0.v201806261756/eclipse32.png
+438
+./platform/plugins/org.w3c.sac_1.3.0.v201806261756/about_files
+439
+./platform/plugins/org.w3c.sac_1.3.0.v201806261756/about_files/copyright-software-20021231.htm
+440
+./platform/plugins/org.w3c.sac_1.3.0.v201806261756/about_files/copyright-software-20021231_files
+441
+./platform/plugins/org.w3c.sac_1.3.0.v201806261756/about_files/copyright-software-20021231_files/base.css
+442
+./platform/plugins/org.w3c.sac_1.3.0.v201806261756/META-INF
+443
+./platform/plugins/org.w3c.sac_1.3.0.v201806261756/META-INF/ECLIPSE_.RSA
+444
+./platform/plugins/org.w3c.sac_1.3.0.v201806261756/META-INF/ECLIPSE_.SF
+445
+./platform/plugins/org.w3c.sac_1.3.0.v201806261756/META-INF/MANIFEST.MF
+446
+./platform/plugins/org.w3c.sac_1.3.0.v201806261756/about.ini
+447
+./platform/plugins/org.w3c.sac_1.3.0.v201806261756/about.html
+448
+./platform/plugins/org.eclipse.datatools.enablement.hsqldb_1.2.1.201712071719.jar
+449
+./platform/plugins/org.eclipse.birt.chart.engine.extension_4.8.0.v201806261756.jar
+450
+./platform/plugins/org.eclipse.osgi.services_3.7.0.v20180223-1712.jar
+451
+./platform/plugins/org.apache.batik.dom_1.7.1.v201505191845.jar
+452
+./platform/plugins/org.eclipse.core.contenttype_3.7.0.v20180426-1644.jar
+453
+./platform/plugins/org.eclipse.datatools.modelbase.sql_1.2.1.201712071719.jar
+454
+./platform/configuration
+455
+./platform/configuration/org.eclipse.equinox.simpleconfigurator
+456
+./platform/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+457
+./platform/configuration/org.eclipse.update
+458
+./platform/configuration/org.eclipse.update/platform.xml
+459
+./platform/configuration/config.ini
+460
+./bootstrap.properties
+461
+./wa.java.security
+cServer/platform/plugins/org.eclipse.datatools.connectivity_1.14.1.201712071719.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.emf.ecore_2.14.0.v20180529-1144.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.datatools.modelbase.dbdefinition_1.2.1.201712071719.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.engine.dataextraction.csv_4.8.0.v201806261756.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.api_4.8.0.v201806261756.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.equinox.p2.repository_2.4.0.v20180512-1128.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.core.expressions_3.6.100.v20180426-1644.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.engine.emitter.odp_4.8.0.v201806261756.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.engine.emitter.ppt_4.8.0.v201806261756.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.equinox.p2.directorywatcher_1.2.0.v20180130-1836.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.sat4j.pb_2.3.5.v201404071733.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.datatools.enablement.ibm_1.2.1.201712071719.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.datatools.enablement.ibm.db2.zseries_1.2.1.201712071719.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.equinox.simpleconfigurator.manipulator_2.1.0.v20180103-0918.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.equinox.preferences_3.7.100.v20180510-1129.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.datatools.enablement.ibm.db2.zseries.dbdefinition_1.2.1.201712071719.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.equinox.p2.core_2.5.0.v20180512-1128.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.datatools.sqltools.data.core_1.4.1.201712071719.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.apache.batik.util.gui_1.7.0.v200903091627.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.w3c.dom.smil_1.0.1.v200903091627.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.emf.ecore.xmi_2.14.0.v20180129-1548.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.apache.batik.xml_1.7.0.v201011041433.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.datatools.enablement.ibm.db2.luw.dbdefinition_1.2.1.201712071719.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.data.bidi.utils_4.8.0.v201806261756.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.apache.commons.codec_1.9.0.v20170208-1614.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/javax.xml_1.3.4.v201005080400.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.engine.emitter.wpml_4.8.0.v201806261756.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.equinox.frameworkadmin.equinox_1.1.0.v20180512-1128.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.apache.commons.logging_1.1.1.v201101211721.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.equinox.event_1.4.200.v20180426-0845.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.apache.batik.parser_1.7.0.v201011041433.jar
+Directory: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756
+user:group= root:root
+Directory: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/lib
+user:group= root:root
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/lib/cassandra-thrift-1.1.0.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/lib/slf4j-api-1.6.1.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/lib/hector-core-1.1-2.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/lib/slf4j-license.html
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/lib/README.txt
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/lib/guava-r09.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/lib/commons-lang-2.4.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/lib/slf4j-nop-1.6.1.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/lib/hector-LICENSE
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/lib/libthrift-0.7.0.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/plugin.xml
+Directory: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/META-INF
+user:group= root:root
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/META-INF/ECLIPSE_.RSA
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/META-INF/ECLIPSE_.SF
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/META-INF/MANIFEST.MF
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.me.prettyprint.hector_4.8.0.v201806261756/about.html
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.datatools.connectivity.oda.design_3.5.1.201712071719.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.engine.emitter.config.odp_4.8.0.v201806261756.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.engine_4.8.0.v201806261756.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.datatools.connectivity.sqm.core_1.4.1.201712071719.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.datatools.enablement.ibm.db2.iseries.dbdefinition_1.2.1.201712071719.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.engine.emitter.html_4.8.0.v201806261756.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/javax.wsdl_1.5.1.v201012040544.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.engine.emitter.config.ppt_4.8.0.v201806261756.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.update.configurator_3.4.0.v20180512-1141.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.orbit.mongodb_3.2.2.v20170222-2110.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.datatools.enablement.ibm.db2_1.2.1.201712071719.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.engine.emitter.prototype.excel_4.8.0.v201806261756.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/javax.xml.stream_1.0.1.v201004272200.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.chart.device.extension_4.8.0.v201806261756.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.datatools.enablement.ibm.db2.luw_1.2.1.201712071719.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.datatools.connectivity.dbdefinition.genericJDBC_1.2.1.201712071719.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.equinox.p2.artifact.repository_1.2.0.v20180413-0846.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.datatools.enablement.sap.maxdb_1.2.1.201712071719.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.core.filesystem_1.7.100.v20180304-1102.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.datatools.enablement.oracle_1.2.1.201712071719.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.datatools.enablement.msft.sqlserver.dbdefinition_1.2.1.201712071719.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.datatools.enablement.hsqldb.dbdefinition_1.2.1.201712071719.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.engine.odf_4.8.0.v201806261756.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.equinox.p2.reconciler.dropins_1.2.0.v20180302-1057.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.chart.examples.core_4.8.0.v201806261756.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.engine.emitter.config.docx_4.8.0.v201806261756.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.engine.emitter.config.html_4.8.0.v201806261756.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.datatools.enablement.postgresql.dbdefinition_1.2.1.201712071719.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.equinox.common_3.10.0.v20180412-1130.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.help_3.8.100.v20180512-1136.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.equinox.security_1.2.400.v20171221-2204.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.engine.ooxml_4.8.0.v201806261756.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/com.ibm.icu_58.2.0.v20170418-1837.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.osgi.compatibility.state_1.1.100.v20180331-1743.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.equinox.p2.engine_2.6.0.v20180409-1209.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.core.resources_3.13.0.v20180512-1138.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.datatools.connectivity.oda.flatfile_3.3.1.201712071719.jar
+Directory: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.data.oda.sampledb_4.8.0.v201806261756
+user:group= root:root
+Directory: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.data.oda.sampledb_4.8.0.v201806261756/db
+user:group= root:root
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.data.oda.sampledb_4.8.0.v201806261756/db/BirtSample.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.data.oda.sampledb_4.8.0.v201806261756/sampledb.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.data.oda.sampledb_4.8.0.v201806261756/.options
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.data.oda.sampledb_4.8.0.v201806261756/plugin.xml
+Directory: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.data.oda.sampledb_4.8.0.v201806261756/META-INF
+user:group= root:root
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.data.oda.sampledb_4.8.0.v201806261756/META-INF/ECLIPSE_.RSA
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.data.oda.sampledb_4.8.0.v201806261756/META-INF/ECLIPSE_.SF
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.data.oda.sampledb_4.8.0.v201806261756/META-INF/MANIFEST.MF
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.data.oda.sampledb_4.8.0.v201806261756/about.html
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.data.oda.sampledb_4.8.0.v201806261756/plugin.properties
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.apache.lucene.analyzers-common_6.1.0.v20161115-1612.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.datatools.enablement.mysql.dbdefinition_1.2.1.201712071719.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.engine.emitter.pdf_4.8.0.v201806261756.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.apache.lucene.queryparser_6.1.0.v20161115-1612.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.apache.batik.dom.svg_1.7.0.v201011041433.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.engine.emitter.config.pptx_4.8.0.v201806261756.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.osgi.util_3.5.0.v20180219-1511.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.datatools.connectivity.console.profile_1.2.1.201712071719.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.datatools.connectivity.oda.consumer_3.4.1.201712071719.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.osgi_3.13.0.v20180409-1500.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.apache.batik.ext.awt_1.7.0.v201011041433.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.datatools.enablement.mysql_1.2.1.201712071719.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/com.lowagie.text_2.1.7.v201004222200.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.apache.batik.svggen_1.7.0.v201011041433.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.chart.device.svg_4.8.0.v201806261756.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.apache.poi_3.9.0.v201405241750.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.sat4j.core_2.3.5.v201308161310.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.datatools.enablement.oda.ws_1.4.1.201712071719.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.apache.batik.util_1.7.0.v201011041433.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.apache.batik.css_1.7.0.v201011041433.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.datatools.sqltools.parsers.sql.query_1.4.1.201712071719.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.engine.emitter.config.excel_4.8.0.v201806261756.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.datatools.modelbase.derby_1.2.1.201712071719.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.report.engine.emitter.config.postscript_4.8.0.v201806261756.jar
+Directory: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.w3c.sac_1.3.0.v201806261756
+user:group= root:root
+Directory: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.w3c.sac_1.3.0.v201806261756/lib
+user:group= root:root
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.w3c.sac_1.3.0.v201806261756/lib/flute.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.w3c.sac_1.3.0.v201806261756/about.mappings
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.w3c.sac_1.3.0.v201806261756/about.properties
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.w3c.sac_1.3.0.v201806261756/eclipse32.png
+Directory: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.w3c.sac_1.3.0.v201806261756/about_files
+user:group= root:root
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.w3c.sac_1.3.0.v201806261756/about_files/copyright-software-20021231.htm
+Directory: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.w3c.sac_1.3.0.v201806261756/about_files/copyright-software-20021231_files
+user:group= root:root
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.w3c.sac_1.3.0.v201806261756/about_files/copyright-software-20021231_files/base.css
+Directory: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.w3c.sac_1.3.0.v201806261756/META-INF
+user:group= root:root
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.w3c.sac_1.3.0.v201806261756/META-INF/ECLIPSE_.RSA
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.w3c.sac_1.3.0.v201806261756/META-INF/ECLIPSE_.SF
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.w3c.sac_1.3.0.v201806261756/META-INF/MANIFEST.MF
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.w3c.sac_1.3.0.v201806261756/about.ini
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.w3c.sac_1.3.0.v201806261756/about.html
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.datatools.enablement.hsqldb_1.2.1.201712071719.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.birt.chart.engine.extension_4.8.0.v201806261756.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.osgi.services_3.7.0.v20180223-1712.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.apache.batik.dom_1.7.1.v201505191845.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.core.contenttype_3.7.0.v20180426-1644.jar
+File: /installers/DWC/usr/servers/dwcServer/platform/plugins/org.eclipse.datatools.modelbase.sql_1.2.1.201712071719.jar
+Directory: /installers/DWC/usr/servers/dwcServer/platform/configuration
+user:group= root:root
+Directory: /installers/DWC/usr/servers/dwcServer/platform/configuration/org.eclipse.equinox.simpleconfigurator
+user:group= root:root
+File: /installers/DWC/usr/servers/dwcServer/platform/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+Directory: /installers/DWC/usr/servers/dwcServer/platform/configuration/org.eclipse.update
+user:group= root:root
+File: /installers/DWC/usr/servers/dwcServer/platform/configuration/org.eclipse.update/platform.xml
+File: /installers/DWC/usr/servers/dwcServer/platform/configuration/config.ini
+File: /installers/DWC/usr/servers/dwcServer/bootstrap.properties
+File: /installers/DWC/usr/servers/dwcServer/wa.java.security
+Sat Nov  4 19:34:47 IST 2023  imagePluginDir =  /installers/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn
+Sat Nov  4 19:34:47 IST 2023  installPluginDir =  /opt/TWS/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn
+Sat Nov  4 19:34:47 IST 2023 /opt/TWS/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn is missing; creating it.
+Sat Nov  4 19:34:47 IST 2023 Invoke mkdir -p /opt/TWS/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn
+rc=0
+Sat Nov  4 19:34:47 IST 2023 comImg =  com
+Sat Nov  4 19:34:47 IST 2023 ibmOrHclImg =  hcl
+Sat Nov  4 19:34:47 IST 2023 plFnameImg =  com.hcl.scheduling.agent.kubernetes
+Sat Nov  4 19:34:47 IST 2023 plAfterFnameImg =  10.1.0.00.jar
+Sat Nov  4 19:34:48 IST 2023 v1Img =  10
+Sat Nov  4 19:34:48 IST 2023 v2Img =  1
+Sat Nov  4 19:34:48 IST 2023 v3Img =  0
+Sat Nov  4 19:34:48 IST 2023 v4Img =  00
+Sat Nov  4 19:34:48 IST 2023 version of plugin in image file: 10.1.0.00 extracted from com.hcl.scheduling.agent.kubernetes_10.1.0.00.jar
+Sat Nov  4 19:34:48 IST 2023 checkExtension: filename = com.hcl.scheduling.agent.kubernetes_10.1.0.00.jar fileext = jar
+Sat Nov  4 19:34:48 IST 2023 checkExtension: result = 0
+Sat Nov  4 19:34:48 IST 2023 image plugin name = com.hcl.scheduling.agent.kubernetes
+Sat Nov  4 19:34:48 IST 2023 image plugin version = 10.1.0.00
+Sat Nov  4 19:34:48 IST 2023 com.ibm.scheduling.agent.com.hcl.scheduling.agent.kubernetes_* not already installed. Installing new version
+Sat Nov  4 19:34:48 IST 2023 Invoke cp /installers/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn/com.hcl.scheduling.agent.kubernetes_10.1.0.00.jar /opt/TWS/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn
+rc=0
+Sat Nov  4 19:34:48 IST 2023 comImg =  com
+Sat Nov  4 19:34:48 IST 2023 ibmOrHclImg =  hcl
+Sat Nov  4 19:34:48 IST 2023 plFnameImg =  com.hcl.wa.plugin.compression
+Sat Nov  4 19:34:48 IST 2023 plAfterFnameImg =  10.1.0.00.jar
+Sat Nov  4 19:34:48 IST 2023 v1Img =  10
+Sat Nov  4 19:34:48 IST 2023 v2Img =  1
+Sat Nov  4 19:34:48 IST 2023 v3Img =  0
+Sat Nov  4 19:34:48 IST 2023 v4Img =  00
+Sat Nov  4 19:34:48 IST 2023 version of plugin in image file: 10.1.0.00 extracted from com.hcl.wa.plugin.compression_10.1.0.00.jar
+Sat Nov  4 19:34:48 IST 2023 checkExtension: filename = com.hcl.wa.plugin.compression_10.1.0.00.jar fileext = jar
+Sat Nov  4 19:34:48 IST 2023 checkExtension: result = 0
+Sat Nov  4 19:34:48 IST 2023 image plugin name = com.hcl.wa.plugin.compression
+Sat Nov  4 19:34:48 IST 2023 image plugin version = 10.1.0.00
+Sat Nov  4 19:34:48 IST 2023 com.ibm.scheduling.agent.com.hcl.wa.plugin.compression_* not already installed. Installing new version
+Sat Nov  4 19:34:48 IST 2023 Invoke cp /installers/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn/com.hcl.wa.plugin.compression_10.1.0.00.jar /opt/TWS/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn
+rc=0
+Sat Nov  4 19:34:49 IST 2023 comImg =  com
+Sat Nov  4 19:34:49 IST 2023 ibmOrHclImg =  hcl
+Sat Nov  4 19:34:49 IST 2023 plFnameImg =  com.hcl.wa.plugin.encryption
+Sat Nov  4 19:34:49 IST 2023 plAfterFnameImg =  10.1.0.00.jar
+Sat Nov  4 19:34:49 IST 2023 v1Img =  10
+Sat Nov  4 19:34:49 IST 2023 v2Img =  1
+Sat Nov  4 19:34:49 IST 2023 v3Img =  0
+Sat Nov  4 19:34:49 IST 2023 v4Img =  00
+Sat Nov  4 19:34:49 IST 2023 version of plugin in image file: 10.1.0.00 extracted from com.hcl.wa.plugin.encryption_10.1.0.00.jar
+Sat Nov  4 19:34:49 IST 2023 checkExtension: filename = com.hcl.wa.plugin.encryption_10.1.0.00.jar fileext = jar
+Sat Nov  4 19:34:49 IST 2023 checkExtension: result = 0
+Sat Nov  4 19:34:49 IST 2023 image plugin name = com.hcl.wa.plugin.encryption
+Sat Nov  4 19:34:49 IST 2023 image plugin version = 10.1.0.00
+Sat Nov  4 19:34:49 IST 2023 com.ibm.scheduling.agent.com.hcl.wa.plugin.encryption_* not already installed. Installing new version
+Sat Nov  4 19:34:49 IST 2023 Invoke cp /installers/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn/com.hcl.wa.plugin.encryption_10.1.0.00.jar /opt/TWS/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn
+rc=0
+Sat Nov  4 19:34:49 IST 2023 comImg =  com
+Sat Nov  4 19:34:49 IST 2023 ibmOrHclImg =  ibm
+Sat Nov  4 19:34:49 IST 2023 plFnameImg =  com.ibm.scheduling.agent.database
+Sat Nov  4 19:34:49 IST 2023 plAfterFnameImg =  10.1.0.00.jar
+Sat Nov  4 19:34:49 IST 2023 v1Img =  10
+Sat Nov  4 19:34:49 IST 2023 v2Img =  1
+Sat Nov  4 19:34:49 IST 2023 v3Img =  0
+Sat Nov  4 19:34:49 IST 2023 v4Img =  00
+Sat Nov  4 19:34:49 IST 2023 version of plugin in image file: 10.1.0.00 extracted from com.ibm.scheduling.agent.database_10.1.0.00.jar
+Sat Nov  4 19:34:49 IST 2023 checkExtension: filename = com.ibm.scheduling.agent.database_10.1.0.00.jar fileext = jar
+Sat Nov  4 19:34:49 IST 2023 checkExtension: result = 0
+Sat Nov  4 19:34:49 IST 2023 image plugin name = com.ibm.scheduling.agent.database
+Sat Nov  4 19:34:49 IST 2023 image plugin version = 10.1.0.00
+Sat Nov  4 19:34:49 IST 2023 com.ibm.scheduling.agent.com.ibm.scheduling.agent.database_* not already installed. Installing new version
+Sat Nov  4 19:34:49 IST 2023 Invoke cp /installers/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn/com.ibm.scheduling.agent.database_10.1.0.00.jar /opt/TWS/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn
+rc=0
+Sat Nov  4 19:34:49 IST 2023 comImg =  com
+Sat Nov  4 19:34:49 IST 2023 ibmOrHclImg =  ibm
+Sat Nov  4 19:34:49 IST 2023 plFnameImg =  com.ibm.scheduling.agent.distributedshadowjobvalidation
+Sat Nov  4 19:34:49 IST 2023 plAfterFnameImg =  10.1.0.00.jar
+Sat Nov  4 19:34:49 IST 2023 v1Img =  10
+Sat Nov  4 19:34:49 IST 2023 v2Img =  1
+Sat Nov  4 19:34:49 IST 2023 v3Img =  0
+Sat Nov  4 19:34:49 IST 2023 v4Img =  00
+Sat Nov  4 19:34:49 IST 2023 version of plugin in image file: 10.1.0.00 extracted from com.ibm.scheduling.agent.distributedshadowjobvalidation_10.1.0.00.jar
+Sat Nov  4 19:34:49 IST 2023 checkExtension: filename = com.ibm.scheduling.agent.distributedshadowjobvalidation_10.1.0.00.jar fileext = jar
+Sat Nov  4 19:34:49 IST 2023 checkExtension: result = 0
+Sat Nov  4 19:34:49 IST 2023 image plugin name = com.ibm.scheduling.agent.distributedshadowjobvalidation
+Sat Nov  4 19:34:49 IST 2023 image plugin version = 10.1.0.00
+Sat Nov  4 19:34:49 IST 2023 com.ibm.scheduling.agent.com.ibm.scheduling.agent.distributedshadowjobvalidation_* not already installed. Installing new version
+Sat Nov  4 19:34:50 IST 2023 Invoke cp /installers/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn/com.ibm.scheduling.agent.distributedshadowjobvalidation_10.1.0.00.jar /opt/TWS/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn
+rc=0
+Sat Nov  4 19:34:50 IST 2023 comImg =  com
+Sat Nov  4 19:34:50 IST 2023 ibmOrHclImg =  ibm
+Sat Nov  4 19:34:50 IST 2023 plFnameImg =  com.ibm.scheduling.agent.executable
+Sat Nov  4 19:34:50 IST 2023 plAfterFnameImg =  10.1.0.00.jar
+Sat Nov  4 19:34:50 IST 2023 v1Img =  10
+Sat Nov  4 19:34:50 IST 2023 v2Img =  1
+Sat Nov  4 19:34:50 IST 2023 v3Img =  0
+Sat Nov  4 19:34:50 IST 2023 v4Img =  00
+Sat Nov  4 19:34:50 IST 2023 version of plugin in image file: 10.1.0.00 extracted from com.ibm.scheduling.agent.executable_10.1.0.00.jar
+Sat Nov  4 19:34:50 IST 2023 checkExtension: filename = com.ibm.scheduling.agent.executable_10.1.0.00.jar fileext = jar
+Sat Nov  4 19:34:50 IST 2023 checkExtension: result = 0
+Sat Nov  4 19:34:50 IST 2023 image plugin name = com.ibm.scheduling.agent.executable
+Sat Nov  4 19:34:50 IST 2023 image plugin version = 10.1.0.00
+Sat Nov  4 19:34:50 IST 2023 com.ibm.scheduling.agent.com.ibm.scheduling.agent.executable_* not already installed. Installing new version
+Sat Nov  4 19:34:50 IST 2023 Invoke cp /installers/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn/com.ibm.scheduling.agent.executable_10.1.0.00.jar /opt/TWS/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn
+rc=0
+Sat Nov  4 19:34:50 IST 2023 comImg =  com
+Sat Nov  4 19:34:50 IST 2023 ibmOrHclImg =  ibm
+Sat Nov  4 19:34:50 IST 2023 plFnameImg =  com.ibm.scheduling.agent.filetransfer
+Sat Nov  4 19:34:50 IST 2023 plAfterFnameImg =  10.1.0.00.jar
+Sat Nov  4 19:34:50 IST 2023 v1Img =  10
+Sat Nov  4 19:34:50 IST 2023 v2Img =  1
+Sat Nov  4 19:34:50 IST 2023 v3Img =  0
+Sat Nov  4 19:34:50 IST 2023 v4Img =  00
+Sat Nov  4 19:34:50 IST 2023 version of plugin in image file: 10.1.0.00 extracted from com.ibm.scheduling.agent.filetransfer_10.1.0.00.jar
+Sat Nov  4 19:34:50 IST 2023 checkExtension: filename = com.ibm.scheduling.agent.filetransfer_10.1.0.00.jar fileext = jar
+Sat Nov  4 19:34:50 IST 2023 checkExtension: result = 0
+Sat Nov  4 19:34:50 IST 2023 image plugin name = com.ibm.scheduling.agent.filetransfer
+Sat Nov  4 19:34:50 IST 2023 image plugin version = 10.1.0.00
+Sat Nov  4 19:34:50 IST 2023 com.ibm.scheduling.agent.com.ibm.scheduling.agent.filetransfer_* not already installed. Installing new version
+Sat Nov  4 19:34:50 IST 2023 Invoke cp /installers/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn/com.ibm.scheduling.agent.filetransfer_10.1.0.00.jar /opt/TWS/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn
+rc=0
+Sat Nov  4 19:34:50 IST 2023 comImg =  com
+Sat Nov  4 19:34:50 IST 2023 ibmOrHclImg =  ibm
+Sat Nov  4 19:34:50 IST 2023 plFnameImg =  com.ibm.scheduling.agent.ibmi
+Sat Nov  4 19:34:50 IST 2023 plAfterFnameImg =  10.1.0.00.jar
+Sat Nov  4 19:34:50 IST 2023 v1Img =  10
+Sat Nov  4 19:34:50 IST 2023 v2Img =  1
+Sat Nov  4 19:34:50 IST 2023 v3Img =  0
+Sat Nov  4 19:34:50 IST 2023 v4Img =  00
+Sat Nov  4 19:34:50 IST 2023 version of plugin in image file: 10.1.0.00 extracted from com.ibm.scheduling.agent.ibmi_10.1.0.00.jar
+Sat Nov  4 19:34:50 IST 2023 checkExtension: filename = com.ibm.scheduling.agent.ibmi_10.1.0.00.jar fileext = jar
+Sat Nov  4 19:34:50 IST 2023 checkExtension: result = 0
+Sat Nov  4 19:34:50 IST 2023 image plugin name = com.ibm.scheduling.agent.ibmi
+Sat Nov  4 19:34:50 IST 2023 image plugin version = 10.1.0.00
+Sat Nov  4 19:34:50 IST 2023 com.ibm.scheduling.agent.com.ibm.scheduling.agent.ibmi_* not already installed. Installing new version
+Sat Nov  4 19:34:50 IST 2023 Invoke cp /installers/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn/com.ibm.scheduling.agent.ibmi_10.1.0.00.jar /opt/TWS/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn
+rc=0
+Sat Nov  4 19:34:50 IST 2023 comImg =  com
+Sat Nov  4 19:34:50 IST 2023 ibmOrHclImg =  ibm
+Sat Nov  4 19:34:50 IST 2023 plFnameImg =  com.ibm.scheduling.agent.infopackage
+Sat Nov  4 19:34:50 IST 2023 plAfterFnameImg =  10.1.0.00.jar
+Sat Nov  4 19:34:50 IST 2023 v1Img =  10
+Sat Nov  4 19:34:50 IST 2023 v2Img =  1
+Sat Nov  4 19:34:50 IST 2023 v3Img =  0
+Sat Nov  4 19:34:50 IST 2023 v4Img =  00
+Sat Nov  4 19:34:50 IST 2023 version of plugin in image file: 10.1.0.00 extracted from com.ibm.scheduling.agent.infopackage_10.1.0.00.jar
+Sat Nov  4 19:34:50 IST 2023 checkExtension: filename = com.ibm.scheduling.agent.infopackage_10.1.0.00.jar fileext = jar
+Sat Nov  4 19:34:50 IST 2023 checkExtension: result = 0
+Sat Nov  4 19:34:50 IST 2023 image plugin name = com.ibm.scheduling.agent.infopackage
+Sat Nov  4 19:34:50 IST 2023 image plugin version = 10.1.0.00
+Sat Nov  4 19:34:50 IST 2023 com.ibm.scheduling.agent.com.ibm.scheduling.agent.infopackage_* not already installed. Installing new version
+Sat Nov  4 19:34:50 IST 2023 Invoke cp /installers/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn/com.ibm.scheduling.agent.infopackage_10.1.0.00.jar /opt/TWS/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn
+rc=0
+Sat Nov  4 19:34:50 IST 2023 comImg =  com
+Sat Nov  4 19:34:50 IST 2023 ibmOrHclImg =  ibm
+Sat Nov  4 19:34:50 IST 2023 plFnameImg =  com.ibm.scheduling.agent.java
+Sat Nov  4 19:34:50 IST 2023 plAfterFnameImg =  10.1.0.00.jar
+Sat Nov  4 19:34:50 IST 2023 v1Img =  10
+Sat Nov  4 19:34:50 IST 2023 v2Img =  1
+Sat Nov  4 19:34:50 IST 2023 v3Img =  0
+Sat Nov  4 19:34:50 IST 2023 v4Img =  00
+Sat Nov  4 19:34:50 IST 2023 version of plugin in image file: 10.1.0.00 extracted from com.ibm.scheduling.agent.java_10.1.0.00.jar
+Sat Nov  4 19:34:50 IST 2023 checkExtension: filename = com.ibm.scheduling.agent.java_10.1.0.00.jar fileext = jar
+Sat Nov  4 19:34:50 IST 2023 checkExtension: result = 0
+Sat Nov  4 19:34:50 IST 2023 image plugin name = com.ibm.scheduling.agent.java
+Sat Nov  4 19:34:50 IST 2023 image plugin version = 10.1.0.00
+Sat Nov  4 19:34:50 IST 2023 com.ibm.scheduling.agent.com.ibm.scheduling.agent.java_* not already installed. Installing new version
+Sat Nov  4 19:34:50 IST 2023 Invoke cp /installers/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn/com.ibm.scheduling.agent.java_10.1.0.00.jar /opt/TWS/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn
+rc=0
+Sat Nov  4 19:34:50 IST 2023 comImg =  com
+Sat Nov  4 19:34:50 IST 2023 ibmOrHclImg =  ibm
+Sat Nov  4 19:34:50 IST 2023 plFnameImg =  com.ibm.scheduling.agent.jsr352javabatch
+Sat Nov  4 19:34:50 IST 2023 plAfterFnameImg =  10.1.0.00.jar
+Sat Nov  4 19:34:50 IST 2023 v1Img =  10
+Sat Nov  4 19:34:50 IST 2023 v2Img =  1
+Sat Nov  4 19:34:50 IST 2023 v3Img =  0
+Sat Nov  4 19:34:50 IST 2023 v4Img =  00
+Sat Nov  4 19:34:50 IST 2023 version of plugin in image file: 10.1.0.00 extracted from com.ibm.scheduling.agent.jsr352javabatch_10.1.0.00.jar
+Sat Nov  4 19:34:50 IST 2023 checkExtension: filename = com.ibm.scheduling.agent.jsr352javabatch_10.1.0.00.jar fileext = jar
+Sat Nov  4 19:34:50 IST 2023 checkExtension: result = 0
+Sat Nov  4 19:34:50 IST 2023 image plugin name = com.ibm.scheduling.agent.jsr352javabatch
+Sat Nov  4 19:34:50 IST 2023 image plugin version = 10.1.0.00
+Sat Nov  4 19:34:50 IST 2023 com.ibm.scheduling.agent.com.ibm.scheduling.agent.jsr352javabatch_* not already installed. Installing new version
+Sat Nov  4 19:34:50 IST 2023 Invoke cp /installers/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn/com.ibm.scheduling.agent.jsr352javabatch_10.1.0.00.jar /opt/TWS/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn
+rc=0
+Sat Nov  4 19:34:50 IST 2023 comImg =  com
+Sat Nov  4 19:34:50 IST 2023 ibmOrHclImg =  ibm
+Sat Nov  4 19:34:50 IST 2023 plFnameImg =  com.ibm.scheduling.agent.mssqljob
+Sat Nov  4 19:34:50 IST 2023 plAfterFnameImg =  10.1.0.00.jar
+Sat Nov  4 19:34:50 IST 2023 v1Img =  10
+Sat Nov  4 19:34:50 IST 2023 v2Img =  1
+Sat Nov  4 19:34:50 IST 2023 v3Img =  0
+Sat Nov  4 19:34:50 IST 2023 v4Img =  00
+Sat Nov  4 19:34:50 IST 2023 version of plugin in image file: 10.1.0.00 extracted from com.ibm.scheduling.agent.mssqljob_10.1.0.00.jar
+Sat Nov  4 19:34:50 IST 2023 checkExtension: filename = com.ibm.scheduling.agent.mssqljob_10.1.0.00.jar fileext = jar
+Sat Nov  4 19:34:50 IST 2023 checkExtension: result = 0
+Sat Nov  4 19:34:50 IST 2023 image plugin name = com.ibm.scheduling.agent.mssqljob
+Sat Nov  4 19:34:50 IST 2023 image plugin version = 10.1.0.00
+Sat Nov  4 19:34:50 IST 2023 com.ibm.scheduling.agent.com.ibm.scheduling.agent.mssqljob_* not already installed. Installing new version
+Sat Nov  4 19:34:50 IST 2023 Invoke cp /installers/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn/com.ibm.scheduling.agent.mssqljob_10.1.0.00.jar /opt/TWS/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn
+rc=0
+Sat Nov  4 19:34:50 IST 2023 comImg =  com
+Sat Nov  4 19:34:50 IST 2023 ibmOrHclImg =  ibm
+Sat Nov  4 19:34:50 IST 2023 plFnameImg =  com.ibm.scheduling.agent.processchain
+Sat Nov  4 19:34:50 IST 2023 plAfterFnameImg =  10.1.0.00.jar
+Sat Nov  4 19:34:50 IST 2023 v1Img =  10
+Sat Nov  4 19:34:50 IST 2023 v2Img =  1
+Sat Nov  4 19:34:50 IST 2023 v3Img =  0
+Sat Nov  4 19:34:50 IST 2023 v4Img =  00
+Sat Nov  4 19:34:50 IST 2023 version of plugin in image file: 10.1.0.00 extracted from com.ibm.scheduling.agent.processchain_10.1.0.00.jar
+Sat Nov  4 19:34:50 IST 2023 checkExtension: filename = com.ibm.scheduling.agent.processchain_10.1.0.00.jar fileext = jar
+Sat Nov  4 19:34:50 IST 2023 checkExtension: result = 0
+Sat Nov  4 19:34:50 IST 2023 image plugin name = com.ibm.scheduling.agent.processchain
+Sat Nov  4 19:34:50 IST 2023 image plugin version = 10.1.0.00
+Sat Nov  4 19:34:50 IST 2023 com.ibm.scheduling.agent.com.ibm.scheduling.agent.processchain_* not already installed. Installing new version
+Sat Nov  4 19:34:50 IST 2023 Invoke cp /installers/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn/com.ibm.scheduling.agent.processchain_10.1.0.00.jar /opt/TWS/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn
+rc=0
+Sat Nov  4 19:34:50 IST 2023 comImg =  com
+Sat Nov  4 19:34:50 IST 2023 ibmOrHclImg =  ibm
+Sat Nov  4 19:34:50 IST 2023 plFnameImg =  com.ibm.scheduling.agent.r3
+Sat Nov  4 19:34:50 IST 2023 plAfterFnameImg =  10.1.0.00.jar
+Sat Nov  4 19:34:50 IST 2023 v1Img =  10
+Sat Nov  4 19:34:50 IST 2023 v2Img =  1
+Sat Nov  4 19:34:50 IST 2023 v3Img =  0
+Sat Nov  4 19:34:50 IST 2023 v4Img =  00
+Sat Nov  4 19:34:50 IST 2023 version of plugin in image file: 10.1.0.00 extracted from com.ibm.scheduling.agent.r3_10.1.0.00.jar
+Sat Nov  4 19:34:50 IST 2023 checkExtension: filename = com.ibm.scheduling.agent.r3_10.1.0.00.jar fileext = jar
+Sat Nov  4 19:34:50 IST 2023 checkExtension: result = 0
+Sat Nov  4 19:34:50 IST 2023 image plugin name = com.ibm.scheduling.agent.r3
+Sat Nov  4 19:34:50 IST 2023 image plugin version = 10.1.0.00
+Sat Nov  4 19:34:50 IST 2023 com.ibm.scheduling.agent.com.ibm.scheduling.agent.r3_* not already installed. Installing new version
+Sat Nov  4 19:34:50 IST 2023 Invoke cp /installers/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn/com.ibm.scheduling.agent.r3_10.1.0.00.jar /opt/TWS/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn
+rc=0
+Sat Nov  4 19:34:50 IST 2023 comImg =  com
+Sat Nov  4 19:34:50 IST 2023 ibmOrHclImg =  ibm
+Sat Nov  4 19:34:50 IST 2023 plFnameImg =  com.ibm.scheduling.agent.remotecommand
+Sat Nov  4 19:34:50 IST 2023 plAfterFnameImg =  10.1.0.00.jar
+Sat Nov  4 19:34:50 IST 2023 v1Img =  10
+Sat Nov  4 19:34:50 IST 2023 v2Img =  1
+Sat Nov  4 19:34:51 IST 2023 v3Img =  0
+Sat Nov  4 19:34:51 IST 2023 v4Img =  00
+Sat Nov  4 19:34:51 IST 2023 version of plugin in image file: 10.1.0.00 extracted from com.ibm.scheduling.agent.remotecommand_10.1.0.00.jar
+Sat Nov  4 19:34:51 IST 2023 checkExtension: filename = com.ibm.scheduling.agent.remotecommand_10.1.0.00.jar fileext = jar
+Sat Nov  4 19:34:51 IST 2023 checkExtension: result = 0
+Sat Nov  4 19:34:51 IST 2023 image plugin name = com.ibm.scheduling.agent.remotecommand
+Sat Nov  4 19:34:51 IST 2023 image plugin version = 10.1.0.00
+Sat Nov  4 19:34:51 IST 2023 com.ibm.scheduling.agent.com.ibm.scheduling.agent.remotecommand_* not already installed. Installing new version
+Sat Nov  4 19:34:51 IST 2023 Invoke cp /installers/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn/com.ibm.scheduling.agent.remotecommand_10.1.0.00.jar /opt/TWS/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn
+rc=0
+Sat Nov  4 19:34:51 IST 2023 comImg =  com
+Sat Nov  4 19:34:51 IST 2023 ibmOrHclImg =  ibm
+Sat Nov  4 19:34:51 IST 2023 plFnameImg =  com.ibm.scheduling.agent.restful
+Sat Nov  4 19:34:51 IST 2023 plAfterFnameImg =  10.1.0.00.jar
+Sat Nov  4 19:34:51 IST 2023 v1Img =  10
+Sat Nov  4 19:34:51 IST 2023 v2Img =  1
+Sat Nov  4 19:34:51 IST 2023 v3Img =  0
+Sat Nov  4 19:34:51 IST 2023 v4Img =  00
+Sat Nov  4 19:34:51 IST 2023 version of plugin in image file: 10.1.0.00 extracted from com.ibm.scheduling.agent.restful_10.1.0.00.jar
+Sat Nov  4 19:34:51 IST 2023 checkExtension: filename = com.ibm.scheduling.agent.restful_10.1.0.00.jar fileext = jar
+Sat Nov  4 19:34:51 IST 2023 checkExtension: result = 0
+Sat Nov  4 19:34:51 IST 2023 image plugin name = com.ibm.scheduling.agent.restful
+Sat Nov  4 19:34:51 IST 2023 image plugin version = 10.1.0.00
+Sat Nov  4 19:34:51 IST 2023 com.ibm.scheduling.agent.com.ibm.scheduling.agent.restful_* not already installed. Installing new version
+Sat Nov  4 19:34:51 IST 2023 Invoke cp /installers/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn/com.ibm.scheduling.agent.restful_10.1.0.00.jar /opt/TWS/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn
+rc=0
+Sat Nov  4 19:34:51 IST 2023 comImg =  com
+Sat Nov  4 19:34:51 IST 2023 ibmOrHclImg =  ibm
+Sat Nov  4 19:34:51 IST 2023 plFnameImg =  com.ibm.scheduling.agent.sterling
+Sat Nov  4 19:34:51 IST 2023 plAfterFnameImg =  10.1.0.00.jar
+Sat Nov  4 19:34:51 IST 2023 v1Img =  10
+Sat Nov  4 19:34:51 IST 2023 v2Img =  1
+Sat Nov  4 19:34:51 IST 2023 v3Img =  0
+Sat Nov  4 19:34:51 IST 2023 v4Img =  00
+Sat Nov  4 19:34:51 IST 2023 version of plugin in image file: 10.1.0.00 extracted from com.ibm.scheduling.agent.sterling_10.1.0.00.jar
+Sat Nov  4 19:34:51 IST 2023 checkExtension: filename = com.ibm.scheduling.agent.sterling_10.1.0.00.jar fileext = jar
+Sat Nov  4 19:34:51 IST 2023 checkExtension: result = 0
+Sat Nov  4 19:34:51 IST 2023 image plugin name = com.ibm.scheduling.agent.sterling
+Sat Nov  4 19:34:51 IST 2023 image plugin version = 10.1.0.00
+Sat Nov  4 19:34:51 IST 2023 com.ibm.scheduling.agent.com.ibm.scheduling.agent.sterling_* not already installed. Installing new version
+Sat Nov  4 19:34:51 IST 2023 Invoke cp /installers/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn/com.ibm.scheduling.agent.sterling_10.1.0.00.jar /opt/TWS/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn
+rc=0
+Sat Nov  4 19:34:51 IST 2023 comImg =  com
+Sat Nov  4 19:34:51 IST 2023 ibmOrHclImg =  ibm
+Sat Nov  4 19:34:51 IST 2023 plFnameImg =  com.ibm.scheduling.agent.xajob
+Sat Nov  4 19:34:51 IST 2023 plAfterFnameImg =  10.1.0.00.jar
+Sat Nov  4 19:34:51 IST 2023 v1Img =  10
+Sat Nov  4 19:34:51 IST 2023 v2Img =  1
+Sat Nov  4 19:34:51 IST 2023 v3Img =  0
+Sat Nov  4 19:34:51 IST 2023 v4Img =  00
+Sat Nov  4 19:34:51 IST 2023 version of plugin in image file: 10.1.0.00 extracted from com.ibm.scheduling.agent.xajob_10.1.0.00.jar
+Sat Nov  4 19:34:51 IST 2023 checkExtension: filename = com.ibm.scheduling.agent.xajob_10.1.0.00.jar fileext = jar
+Sat Nov  4 19:34:51 IST 2023 checkExtension: result = 0
+Sat Nov  4 19:34:51 IST 2023 image plugin name = com.ibm.scheduling.agent.xajob
+Sat Nov  4 19:34:51 IST 2023 image plugin version = 10.1.0.00
+Sat Nov  4 19:34:51 IST 2023 com.ibm.scheduling.agent.com.ibm.scheduling.agent.xajob_* not already installed. Installing new version
+Sat Nov  4 19:34:51 IST 2023 Invoke cp /installers/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn/com.ibm.scheduling.agent.xajob_10.1.0.00.jar /opt/TWS/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn
+rc=0
+Sat Nov  4 19:34:51 IST 2023 comImg =  com
+Sat Nov  4 19:34:51 IST 2023 ibmOrHclImg =  ibm
+Sat Nov  4 19:34:51 IST 2023 plFnameImg =  com.ibm.scheduling.agent.zshadowjobvalidation
+Sat Nov  4 19:34:51 IST 2023 plAfterFnameImg =  10.1.0.00.jar
+Sat Nov  4 19:34:51 IST 2023 v1Img =  10
+Sat Nov  4 19:34:51 IST 2023 v2Img =  1
+Sat Nov  4 19:34:51 IST 2023 v3Img =  0
+Sat Nov  4 19:34:51 IST 2023 v4Img =  00
+Sat Nov  4 19:34:51 IST 2023 version of plugin in image file: 10.1.0.00 extracted from com.ibm.scheduling.agent.zshadowjobvalidation_10.1.0.00.jar
+Sat Nov  4 19:34:51 IST 2023 checkExtension: filename = com.ibm.scheduling.agent.zshadowjobvalidation_10.1.0.00.jar fileext = jar
+Sat Nov  4 19:34:51 IST 2023 checkExtension: result = 0
+Sat Nov  4 19:34:51 IST 2023 image plugin name = com.ibm.scheduling.agent.zshadowjobvalidation
+Sat Nov  4 19:34:51 IST 2023 image plugin version = 10.1.0.00
+Sat Nov  4 19:34:51 IST 2023 com.ibm.scheduling.agent.com.ibm.scheduling.agent.zshadowjobvalidation_* not already installed. Installing new version
+Sat Nov  4 19:34:51 IST 2023 Invoke cp /installers/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn/com.ibm.scheduling.agent.zshadowjobvalidation_10.1.0.00.jar /opt/TWS/DWC/usr/servers/dwcServer/resources/lib/zconn/applicationJobPlugIn
+rc=0
+Sat Nov  4 19:34:51 IST 2023 Invoke cp -r /installers/DWC/usr/servers/dwcServer/resources/properties/WAZ.properties /opt/TWS/DWC/usr/servers/dwcServer/resources/properties/WAZ.properties
+rc=0
+Sat Nov  4 19:34:51 IST 2023 Invoke /installers/DWC/java/jre/bin/jar xf //opt/TWS/DWC/usr/servers/dwcServer/apps/DWC.ear.back
+rc=0
+Sat Nov  4 19:35:07 IST 2023 Invoke /installers/DWC/java/jre/bin/jar xf //opt/TWS/DWC/usr/servers/dwcServer/apps/ZConnector.ear.back
+rc=0
+Sat Nov  4 19:35:09 IST 2023 Invoke /installers/DWC/java/jre/bin/jar xf //opt/TWS/DWC/usr/servers/dwcServer/apps/DWC.ear/Console.war.back
+rc=0
+Sat Nov  4 19:35:10 IST 2023 Invoke /installers/DWC/java/jre/bin/jar xf //opt/TWS/DWC/usr/servers/dwcServer/apps/DWC.ear/DWCRedirect.war.back
+rc=0
+Sat Nov  4 19:35:11 IST 2023 Invoke /installers/DWC/java/jre/bin/jar xf //opt/TWS/DWC/usr/servers/dwcServer/apps/DWC.ear/DWCRest.war.back
+rc=0
+Sat Nov  4 19:35:12 IST 2023 Invoke /installers/DWC/java/jre/bin/jar xf //opt/TWS/DWC/usr/servers/dwcServer/apps/DWC.ear/Reporting.war.back
+rc=0
+Sat Nov  4 19:35:13 IST 2023 Invoke /installers/DWC/java/jre/bin/jar xf //opt/TWS/DWC/usr/servers/dwcServer/apps/DWC.ear/StaticResources.war.back
+rc=0
+Sat Nov  4 19:35:14 IST 2023 Invoke /installers/DWC/java/jre/bin/jar xf //opt/TWS/DWC/usr/servers/dwcServer/apps/DWC.ear/TWSWebUI.war.back
+rc=0
+Sat Nov  4 19:35:34 IST 2023 Invoke /installers/DWC/java/jre/bin/jar xf //opt/TWS/DWC/usr/servers/dwcServer/apps/DWC.ear/WD.war.back
+rc=0
+Sat Nov  4 19:35:34 IST 2023 Invoke /installers/DWC/java/jre/bin/jar xf //opt/TWS/DWC/usr/servers/dwcServer/apps/DWC.ear/WebHelp.war.back
+rc=0
+Sat Nov  4 19:35:36 IST 2023 Invoke /installers/DWC/java/jre/bin/jar xf //opt/TWS/DWC/usr/servers/dwcServer/apps/DWC.ear/WebUI.war.back
+rc=0
+Sat Nov  4 19:35:38 IST 2023 Invoke /installers/DWC/java/jre/bin/jar xf //opt/TWS/DWC/usr/servers/dwcServer/apps/ZConnector.ear/PlanServicesWeb.war.back
+rc=0
+Sat Nov  4 19:35:39 IST 2023 Invoke /installers/DWC/java/jre/bin/jar xf //opt/TWS/DWC/usr/servers/dwcServer/apps/ZConnector.ear/TWSzRESTWeb.war.back
+rc=0
+Sat Nov  4 19:35:40 IST 2023 Invoke /installers/DWC/java/jre/bin/jar xf //opt/TWS/DWC/usr/servers/dwcServer/apps/ZConnector.ear/WD.war.back
+rc=0
+Sat Nov  4 19:35:41 IST 2023 no need to change ownership to dir /opt/TWS/DWC/usr/servers/dwcServer/apps
+Sat Nov  4 19:35:41 IST 2023 Invoke cp -r /installers/DWC/TdwcGlobalSettings.xml.template /opt/TWS/DWC/usr/servers/dwcServer/configDropins/templates/
+rc=0
+Sat Nov  4 19:35:41 IST 2023 copySSL(): SSL_KEY_FOLDER is blank, no copy will be done
+WAINST200I Configuring WLP.
+ls: cannot access '/opt/TWS/DWC/usr/servers/dwcServer/registry': No such file or directory
+ls: cannot access '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides': No such file or directory
+ls: cannot access '/opt/TWS/DWC/usr/servers/dwcServer/resources/security': No such file or directory
+ls: cannot access '/opt/TWS/DWC/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties': No such file or directory
+ls: cannot access '/opt/TWS/DWC/usr/servers/dwcServer/resources/properties/TWSZOSMetricsConfig.properties': No such file or directory
+WAINST035I For more details see the installation log file: /opt/TWS/DWC/DWC_DATA/installation/logs/configureWlp_10.1.0.00.log.
+WAINST052I The command configureWlp has completed successfully.
+rc=0
+Sat Nov  4 19:35:54 IST 2023 execute_command_and_exit_if_fail_quiet ended successfully
+WAINST201I Configuring data source.
+WAINST035I For more details see the installation log file: /opt/TWS/DWC/DWC_DATA/installation/logs/configureDatasource_10.1.0.00.log.
+WAINST052I The command configureDatasource has completed successfully.
+rc=0
+Sat Nov  4 19:36:02 IST 2023 execute_command_and_exit_if_fail_quiet ended successfully
+Sat Nov  4 19:36:02 IST 2023 runSecurityScripts 1 /installers/DWC/tools/importServerCert.sh 2 /opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/security 3 4 5 DWC 6
+Sat Nov  4 19:36:02 IST 2023 runSecurityScripts not running because parameter passed with --sslkeysfolder is blank
+Sat Nov  4 19:36:02 IST 2023 handleRunSecurityScriptsRc rc = 1
+Sat Nov  4 19:36:02 IST 2023 handleRunSecurityScriptsRc: rc from  runSecurityScripts = 1  ok, both sslfolder and sslpassword are blank
+Sat Nov  4 19:36:02 IST 2023 --clean option not needed in start wlp in new install
+WAINST007I Starting server dwcServer ...
+Sat Nov  4 19:36:02 IST 2023 startWlp: OPTIONS = -direct
+Sat Nov  4 19:36:02 IST 2023 startWlpServer: START_SERVER = TRUE APPSERVERTOOLS_DIR = /opt/TWS/DWC/appservertools HTTPS_PORT = 9443
+Sat Nov  4 19:36:02 IST 2023 startWlpServer: CONTEXT_ROOT = console/login.jsp WAIT = FALSE OPTION = -direct
+Sat Nov  4 19:36:02 IST 2023 Invoke /opt/TWS/DWC/appservertools/startAppServer.sh -direct
+mesg: ttyname failed: Inappropriate ioctl for device
+
+Starting server dwcServer.
+Server dwcServer started with process ID 94137.
+rc=0
+WAINST055I Updating registry.
+Cannot find TWA file:
+The next available TWA file is: /etc/TWA/twainstance1.TWA.properties
+Creating a new TWA File, with name: /etc/TWA/twainstance1.TWA.properties
+rc=0
+Sat Nov  4 19:37:31 IST 2023 execute_command_and_exit_if_fail_quiet ended successfully
+WAINST023I The installation has completed successfully.
+    WAINST006I Browse to this URL with a browser: https://localhost:9443/console/login.jsp
+    User : dwcadmin

@@ -1,0 +1,436 @@
+***************************************************************
+Sat Nov  4 19:35:41 IST 2023 Sat Nov  4 19:35:41 IST 2023
+Sat Nov  4 19:35:41 IST 2023 ***************************************************************
+Sat Nov  4 19:35:48 IST 2023 DEBUG echo vars after parse template file
+Sat Nov  4 19:35:48 IST 2023 ---------------echoVarsConfWlp-------------------
+Sat Nov  4 19:35:48 IST 2023 
+Sat Nov  4 19:35:48 IST 2023 ----------------------------------------------------
+Sat Nov  4 19:35:48 IST 2023 WLP_INSTALL_DIR      =    
+Sat Nov  4 19:35:48 IST 2023 WLP_USER             =           
+Sat Nov  4 19:35:48 IST 2023 WLP_PASSWORD =
+Sat Nov  4 19:35:48 IST 2023 HTTP_PORT            = 31115         
+Sat Nov  4 19:35:48 IST 2023 HTTPS_PORT           = 31116        
+Sat Nov  4 19:35:48 IST 2023 WA_USER              =            
+Sat Nov  4 19:35:48 IST 2023 OVERRIDE             = false          
+Sat Nov  4 19:35:48 IST 2023 SERVER_NAME          = engineServer       
+Sat Nov  4 19:35:48 IST 2023 DATA_DIR             =           
+Sat Nov  4 19:35:48 IST 2023 KEY_STORE_PASSWORD   = default
+Sat Nov  4 19:35:48 IST 2023 TRUST_STORE_PASSWORD = default
+Sat Nov  4 19:35:48 IST 2023 SSL_PASSWORD =
+Sat Nov  4 19:35:48 IST 2023 BOOTSTRAP_PORT       = 12809
+Sat Nov  4 19:35:48 IST 2023 BOOTSTRAP_SEC_PORT   = 19402
+Sat Nov  4 19:35:48 IST 2023 ----------------------------------------------------
+Sat Nov  4 19:35:48 IST 2023 DEBUG echo vars after parse parameters
+Sat Nov  4 19:35:48 IST 2023 ---------------echoVarsConfWlp-------------------
+Sat Nov  4 19:35:48 IST 2023 
+Sat Nov  4 19:35:48 IST 2023 ----------------------------------------------------
+Sat Nov  4 19:35:48 IST 2023 WLP_INSTALL_DIR      = /opt/TWS/WLP/wlp   
+Sat Nov  4 19:35:48 IST 2023 WLP_USER             = dwcadmin          
+Sat Nov  4 19:35:48 IST 2023 WLP_PASSWORD = xxxxx
+Sat Nov  4 19:35:48 IST 2023 HTTP_PORT            = 9444         
+Sat Nov  4 19:35:48 IST 2023 HTTPS_PORT           = 9443        
+Sat Nov  4 19:35:48 IST 2023 WA_USER              =            
+Sat Nov  4 19:35:48 IST 2023 OVERRIDE             = false          
+Sat Nov  4 19:35:48 IST 2023 SERVER_NAME          = dwcServer       
+Sat Nov  4 19:35:48 IST 2023 DATA_DIR             = /opt/TWS/DWC/DWC_DATA          
+Sat Nov  4 19:35:48 IST 2023 KEY_STORE_PASSWORD   = default
+Sat Nov  4 19:35:48 IST 2023 TRUST_STORE_PASSWORD = default
+Sat Nov  4 19:35:48 IST 2023 SSL_PASSWORD =
+Sat Nov  4 19:35:48 IST 2023 BOOTSTRAP_PORT       = 12800
+Sat Nov  4 19:35:48 IST 2023 BOOTSTRAP_SEC_PORT   = 19400
+Sat Nov  4 19:35:48 IST 2023 ----------------------------------------------------
+passwordUtilities-1.0 [1.0.0]
+Sat Nov  4 19:35:49 IST 2023 passwordUtilities-1.0 ok 
+javaee-7.0 [7.0.0]
+javaee-8.0 [8.0.0]
+javaeeClient-7.0 [1.0.0]
+javaeeClient-8.0 [1.0.0]
+Sat Nov  4 19:35:50 IST 2023 javaee-7.0 ok 
+Sat Nov  4 19:35:50 IST 2023  ---------------------------------------------------------------------------------------------------------------------------------------------------
+Sat Nov  4 19:35:50 IST 2023  changing log file position from path /opt/TWS/DWC/logs  to data_dir path /opt/TWS/DWC/DWC_DATA/installation/logs 
+Sat Nov  4 19:35:50 IST 2023  ---------------------------------------------------------------------------------------------------------------------------------------------------
+***************************************************************
+Sat Nov  4 19:35:50 IST 2023 Sat Nov  4 19:35:50 IST 2023
+Sat Nov  4 19:35:50 IST 2023 ***************************************************************
+Sat Nov  4 19:35:51 IST 2023 Invoke cp /opt/TWS/DWC/usr/servers/dwcServer/configDropins/templates/ports_variables.xml /opt/TWS/DWC/usr/servers/dwcServer/configDropins/xxxxxs/
+rc=0
+Sat Nov  4 19:35:51 IST 2023 Invoke cp /opt/TWS/DWC/usr/servers/dwcServer/configDropins/templates/ssl_variables.xml /opt/TWS/DWC/usr/servers/dwcServer/configDropins/xxxxxs/
+rc=0
+Sat Nov  4 19:35:51 IST 2023 Configuring ports...
+Sat Nov  4 19:35:51 IST 2023 Invoke cp /opt/TWS/DWC/usr/servers/dwcServer/configDropins/templates/ports_variables.xml /opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/configDropins/overrides/
+rc=0
+Sat Nov  4 19:35:51 IST 2023 Configuring ssl...
+Sat Nov  4 19:35:51 IST 2023 Invoke cp /opt/TWS/DWC/usr/servers/dwcServer/configDropins/templates/ssl_variables.xml /opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/configDropins/overrides/
+rc=0
+Sat Nov  4 19:35:51 IST 2023 Configuring security...
+Sat Nov  4 19:35:51 IST 2023 Invoke cp /opt/TWS/DWC/usr/servers/dwcServer/configDropins/templates/authentication/authentication_config.xml /opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/configDropins/overrides/
+rc=0
+Sat Nov  4 19:35:51 IST 2023 creating symbolic links to overrides and resources dir...
+Sat Nov  4 19:35:51 IST 2023 creating symbolic links to overrides dir...
+Sat Nov  4 19:35:51 IST 2023 target for symbolic link = /opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/registry
+Sat Nov  4 19:35:51 IST 2023 name  for symbolic link = /opt/TWS/DWC/usr/servers/dwcServer/registry
+Sat Nov  4 19:35:51 IST 2023 CHECK_IF_FILE_EXIST = 
+Sat Nov  4 19:35:51 IST 2023 col1 = 
+Sat Nov  4 19:35:51 IST 2023 /opt/TWS/DWC/usr/servers/dwcServer/registry isSymbolicLink = false
+Sat Nov  4 19:35:51 IST 2023 Invoke ln -s /opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/registry /opt/TWS/DWC/usr/servers/dwcServer/registry
+rc=0
+Sat Nov  4 19:35:51 IST 2023 Invoke chown -R /opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/registry
+chown: missing operand after ‘/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/registry’
+Try 'chown --help' for more information.
+rc=1
+Sat Nov  4 19:35:51 IST 2023 Invoke chgrp -R /opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/registry
+chgrp: missing operand after ‘/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/registry’
+Try 'chgrp --help' for more information.
+rc=1
+Sat Nov  4 19:35:51 IST 2023 creating symbolic links to overrides dir...
+Sat Nov  4 19:35:51 IST 2023 target for symbolic link = /opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/configDropins/overrides
+Sat Nov  4 19:35:51 IST 2023 name  for symbolic link = /opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides
+Sat Nov  4 19:35:51 IST 2023 CHECK_IF_FILE_EXIST = 
+Sat Nov  4 19:35:51 IST 2023 col1 = 
+Sat Nov  4 19:35:51 IST 2023 /opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides isSymbolicLink = false
+Sat Nov  4 19:35:51 IST 2023 Invoke ln -s /opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/configDropins/overrides /opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides
+rc=0
+Sat Nov  4 19:35:51 IST 2023 Invoke chown -R /opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/configDropins/overrides
+chown: missing operand after ‘/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/configDropins/overrides’
+Try 'chown --help' for more information.
+rc=1
+Sat Nov  4 19:35:51 IST 2023 Invoke chgrp -R /opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/configDropins/overrides
+chgrp: missing operand after ‘/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/configDropins/overrides’
+Try 'chgrp --help' for more information.
+rc=1
+Sat Nov  4 19:35:51 IST 2023 creating symbolic links to resources properties and security dir...
+Sat Nov  4 19:35:51 IST 2023 target for symbolic link = /opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/security
+Sat Nov  4 19:35:51 IST 2023 name  for symbolic link = /opt/TWS/DWC/usr/servers/dwcServer/resources/security
+Sat Nov  4 19:35:51 IST 2023 CHECK_IF_FILE_EXIST = 
+Sat Nov  4 19:35:51 IST 2023 col1 = 
+Sat Nov  4 19:35:51 IST 2023 /opt/TWS/DWC/usr/servers/dwcServer/resources/security isSymbolicLink = false
+Sat Nov  4 19:35:51 IST 2023 Invoke ln -s /opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/security /opt/TWS/DWC/usr/servers/dwcServer/resources/security
+rc=0
+Sat Nov  4 19:35:51 IST 2023 Invoke chown -R /opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/security
+chown: missing operand after ‘/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/security’
+Try 'chown --help' for more information.
+rc=1
+Sat Nov  4 19:35:51 IST 2023 Invoke chgrp -R /opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/security
+chgrp: missing operand after ‘/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/security’
+Try 'chgrp --help' for more information.
+rc=1
+Sat Nov  4 19:35:51 IST 2023 creating symbolic links to resources properties files that can be changed by the user  
+Sat Nov  4 19:35:51 IST 2023 target for symbolic link = /opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties
+Sat Nov  4 19:35:51 IST 2023 name  for symbolic link = /opt/TWS/DWC/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties
+Sat Nov  4 19:35:51 IST 2023 CHECK_IF_FILE_EXIST = false
+Sat Nov  4 19:35:51 IST 2023 col1 = 
+Sat Nov  4 19:35:51 IST 2023 /opt/TWS/DWC/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties isSymbolicLink = false
+Sat Nov  4 19:35:51 IST 2023 Invoke ln -s /opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties /opt/TWS/DWC/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties
+rc=0
+Sat Nov  4 19:35:51 IST 2023 Invoke chown -R /opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties
+chown: missing operand after ‘/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties’
+Try 'chown --help' for more information.
+rc=1
+Sat Nov  4 19:35:52 IST 2023 Invoke chgrp -R /opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties
+chgrp: missing operand after ‘/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties’
+Try 'chgrp --help' for more information.
+rc=1
+Sat Nov  4 19:35:52 IST 2023 target for symbolic link = /opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSMetricsConfig.properties
+Sat Nov  4 19:35:52 IST 2023 name  for symbolic link = /opt/TWS/DWC/usr/servers/dwcServer/resources/properties/TWSZOSMetricsConfig.properties
+Sat Nov  4 19:35:52 IST 2023 CHECK_IF_FILE_EXIST = false
+Sat Nov  4 19:35:52 IST 2023 col1 = 
+Sat Nov  4 19:35:52 IST 2023 /opt/TWS/DWC/usr/servers/dwcServer/resources/properties/TWSZOSMetricsConfig.properties isSymbolicLink = false
+Sat Nov  4 19:35:52 IST 2023 Invoke ln -s /opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSMetricsConfig.properties /opt/TWS/DWC/usr/servers/dwcServer/resources/properties/TWSZOSMetricsConfig.properties
+rc=0
+Sat Nov  4 19:35:52 IST 2023 Invoke chown -R /opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSMetricsConfig.properties
+chown: missing operand after ‘/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSMetricsConfig.properties’
+Try 'chown --help' for more information.
+rc=1
+Sat Nov  4 19:35:52 IST 2023 Invoke chgrp -R /opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSMetricsConfig.properties
+chgrp: missing operand after ‘/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSMetricsConfig.properties’
+Try 'chgrp --help' for more information.
+rc=1
+Sat Nov  4 19:35:52 IST 2023 Invoke chown -R /opt/TWS/DWC/DWC_DATA/usr
+chown: missing operand after ‘/opt/TWS/DWC/DWC_DATA/usr’
+Try 'chown --help' for more information.
+rc=1
+Sat Nov  4 19:35:52 IST 2023 Invoke chgrp -R /opt/TWS/DWC/DWC_DATA/usr
+chgrp: missing operand after ‘/opt/TWS/DWC/DWC_DATA/usr’
+Try 'chgrp --help' for more information.
+rc=1
+Sat Nov  4 19:35:52 IST 2023 handlePw: CALLER = /opt/TWS/DWC/tools/configureWlp.sh , SECURE_EXE_DIR = /opt/TWS/DWC/bin , OPEN_SSL_DIR = 
+Sat Nov  4 19:35:52 IST 2023 handle DB_PASSWORD
+Sat Nov  4 19:35:52 IST 2023 handle DB_ADMIN_USER_PWD
+Sat Nov  4 19:35:52 IST 2023 handle KEY_STORE_PASSWORD
+Sat Nov  4 19:35:52 IST 2023 execSecure: entry inputPw = ****, secexepath = /opt/TWS/DWC/bin, secureParm = , secureAlg = 
+Sat Nov  4 19:35:52 IST 2023 execSecure: Starting secure
+Sat Nov  4 19:35:52 IST 2023 execSecure: end
+Sat Nov  4 19:35:52 IST 2023 execSecure: entry inputPw = ****, secexepath = /opt/TWS/DWC/bin, secureParm = -cypher, secureAlg = AES128
+Sat Nov  4 19:35:52 IST 2023 execSecure: Starting secure
+Sat Nov  4 19:35:52 IST 2023 execSecure: end
+Sat Nov  4 19:35:52 IST 2023 handle TRUST_STORE_PASSWORD
+Sat Nov  4 19:35:52 IST 2023 execSecure: entry inputPw = ****, secexepath = /opt/TWS/DWC/bin, secureParm = , secureAlg = 
+Sat Nov  4 19:35:52 IST 2023 execSecure: Starting secure
+Sat Nov  4 19:35:52 IST 2023 execSecure: end
+Sat Nov  4 19:35:52 IST 2023 execSecure: entry inputPw = ****, secexepath = /opt/TWS/DWC/bin, secureParm = -cypher, secureAlg = AES128
+Sat Nov  4 19:35:52 IST 2023 execSecure: Starting secure
+Sat Nov  4 19:35:52 IST 2023 execSecure: end
+Sat Nov  4 19:35:52 IST 2023 handle WA_PASSWORD
+Sat Nov  4 19:35:52 IST 2023 handle SSL_PASSWORD
+Sat Nov  4 19:35:52 IST 2023 handle ENCRYPTION_PASSWORD
+Sat Nov  4 19:35:52 IST 2023 handle LICENSE_PROXY_PASSWORD
+Sat Nov  4 19:35:52 IST 2023 handle WLP_PASSWORD
+Sat Nov  4 19:35:52 IST 2023 execSecure: entry inputPw = ****, secexepath = /opt/TWS/DWC/bin, secureParm = , secureAlg = 
+Sat Nov  4 19:35:52 IST 2023 execSecure: Starting secure
+Sat Nov  4 19:35:52 IST 2023 execSecure: end
+Sat Nov  4 19:35:52 IST 2023 Invoke /opt/TWS/DWC/java/jre/bin/java -cp /opt/TWS/DWC/tools/FileUpdate.jar com.hcl.wa.install.FileUpdate FileUpdateListFullPath=/opt/TWS/DWC/tools/FileUpdateWlpList.txt httpPort=9444 httpsPort=9443 wlpPassword=xxxxx bootstrapPort=12800 bootSecPort=19400 keystorepw={aes}ACb8L+InjNVcF3dd2RYncw+FcyM9e6If3tpsjX4sQ/cz truststorepw={aes}AMBqfPgAOjAb0P+iQOTL49NlfPHXwcBYUbWZcPpr0ZNX hostname=localhost wlpUser=dwcadmin wlp_install_dir=/opt/TWS/WLP/wlp install_dir=/opt/TWS/DWC serverName=dwcServer wlp_user_dir=/opt/TWS/DWC/usr java_home=/opt/TWS/DWC/java/jre appservertools_dir=/opt/TWS/DWC/appservertools .ext5=.sh wlp_output_dir=/opt/TWS/DWC/DWC_DATA/stdlist/appserver dbcs=false data_dir=/opt/TWS/DWC/DWC_DATA sslbegin_dir=/usr/Tivoli unison_home=/opt/TWS/DWC/TWS unison_work=/opt/TWS/DWC/DWC_DATA
+FileUpdate main arg[0] = FileUpdateListFullPath=/opt/TWS/DWC/tools/FileUpdateWlpList.txt
+FileUpdate main arg[1] = httpPort=9444
+FileUpdate main arg[2] = httpsPort=9443
+FileUpdate main arg[3] = wlpPassword=********
+FileUpdate main arg[4] = bootstrapPort=12800
+FileUpdate main arg[5] = bootSecPort=19400
+FileUpdate main arg[6] = keystorepw=********
+FileUpdate main arg[7] = truststorepw=********
+FileUpdate main arg[8] = hostname=localhost
+FileUpdate main arg[9] = wlpUser=dwcadmin
+FileUpdate main arg[10] = wlp_install_dir=/opt/TWS/WLP/wlp
+FileUpdate main arg[11] = install_dir=/opt/TWS/DWC
+FileUpdate main arg[12] = serverName=dwcServer
+FileUpdate main arg[13] = wlp_user_dir=/opt/TWS/DWC/usr
+FileUpdate main arg[14] = java_home=/opt/TWS/DWC/java/jre
+FileUpdate main arg[15] = appservertools_dir=/opt/TWS/DWC/appservertools
+FileUpdate main arg[16] = .ext5=.sh
+FileUpdate main arg[17] = wlp_output_dir=/opt/TWS/DWC/DWC_DATA/stdlist/appserver
+FileUpdate main arg[18] = dbcs=false
+FileUpdate main arg[19] = data_dir=/opt/TWS/DWC/DWC_DATA
+FileUpdate main arg[20] = sslbegin_dir=/usr/Tivoli
+FileUpdate main arg[21] = unison_home=/opt/TWS/DWC/TWS
+FileUpdate main arg[22] = unison_work=/opt/TWS/DWC/DWC_DATA
+ reading/opt/TWS/DWC/tools/FileUpdateWlpList.properties
+ changing/opt/TWS/DWC/usr/servers/dwcServer/bootstrap.properties
+Replace variable. WAINST101I Replacing '$(httpPort)' with '9444' in file '/opt/TWS/DWC/usr/servers/dwcServer/bootstrap.properties' coming from 'httpPort'
+Replace variable. WAINST101I Replacing '$(httpsPort)' with '9443' in file '/opt/TWS/DWC/usr/servers/dwcServer/bootstrap.properties' coming from 'httpsPort'
+Replace variable. WAINST101I Replacing '$(wlpUser)' with 'dwcadmin' in file '/opt/TWS/DWC/usr/servers/dwcServer/bootstrap.properties' coming from 'wlpUser'
+Replace variable. WAINST101I Replacing '$(wlpPassword)' with '********' in file '/opt/TWS/DWC/usr/servers/dwcServer/bootstrap.properties' coming from 'wlpPassword'
+Replace variable. WAINST101I Replacing '$(wlp_install_dir)' with '/opt/TWS/WLP/wlp' in file '/opt/TWS/DWC/usr/servers/dwcServer/bootstrap.properties' coming from 'wlp_install_dir'
+Replace variable. WAINST101I Replacing '$(install_dir)' with '/opt/TWS/DWC' in file '/opt/TWS/DWC/usr/servers/dwcServer/bootstrap.properties' coming from 'install_dir'
+Replace variable. WAINST101I Replacing '$(sslbegin_dir)' with '/usr/Tivoli' in file '/opt/TWS/DWC/usr/servers/dwcServer/bootstrap.properties' coming from 'sslbegin_dir'
+Replace variable. WAINST101I Replacing '$(serverName)' with 'dwcServer' in file '/opt/TWS/DWC/usr/servers/dwcServer/bootstrap.properties' coming from 'serverName'
+Replace variable. WAINST101I Replacing '$(wlp_user_dir)' with '/opt/TWS/DWC/usr' in file '/opt/TWS/DWC/usr/servers/dwcServer/bootstrap.properties' coming from 'wlp_user_dir'
+Replace variable. WAINST101I Replacing '$(java_home)' with '/opt/TWS/DWC/java/jre' in file '/opt/TWS/DWC/usr/servers/dwcServer/bootstrap.properties' coming from 'java_home'
+Replace variable. WAINST101I Replacing '$(wlp_output_dir)' with '/opt/TWS/DWC/DWC_DATA/stdlist/appserver' in file '/opt/TWS/DWC/usr/servers/dwcServer/bootstrap.properties' coming from 'wlp_output_dir'
+Replace variable. WAINST101I Replacing '$(.ext5)' with '.sh' in file '/opt/TWS/DWC/usr/servers/dwcServer/bootstrap.properties' coming from '.ext5'
+Replace variable. WAINST101I Replacing '$(appservertools_dir)' with '/opt/TWS/DWC/appservertools' in file '/opt/TWS/DWC/usr/servers/dwcServer/bootstrap.properties' coming from 'appservertools_dir'
+Replace variable. WAINST101I Replacing '$(bootstrapPort)' with '12800' in file '/opt/TWS/DWC/usr/servers/dwcServer/bootstrap.properties' coming from 'bootstrapPort'
+Replace variable. WAINST101I Replacing '$(bootSecPort)' with '19400' in file '/opt/TWS/DWC/usr/servers/dwcServer/bootstrap.properties' coming from 'bootSecPort'
+Replace variable. WAINST101I Replacing '$(dbcs)' with 'false' in file '/opt/TWS/DWC/usr/servers/dwcServer/bootstrap.properties' coming from 'dbcs'
+Replace variable. WAINST101I Replacing '$(keystorepw)' with '********' in file '/opt/TWS/DWC/usr/servers/dwcServer/bootstrap.properties' coming from 'keystorepw'
+Replace variable. WAINST101I Replacing '$(truststorepw)' with '********' in file '/opt/TWS/DWC/usr/servers/dwcServer/bootstrap.properties' coming from 'truststorepw'
+Replace variable. WAINST101I Replacing '$(hostname)' with 'localhost' in file '/opt/TWS/DWC/usr/servers/dwcServer/bootstrap.properties' coming from 'hostname'
+Replace variable. WAINST101I Replacing '$(unison_home)' with '/opt/TWS/DWC/TWS' in file '/opt/TWS/DWC/usr/servers/dwcServer/bootstrap.properties' coming from 'unison_home'
+Replace variable. WAINST101I Replacing '$(unison_work)' with '/opt/TWS/DWC/DWC_DATA' in file '/opt/TWS/DWC/usr/servers/dwcServer/bootstrap.properties' coming from 'unison_work'
+ reading/opt/TWS/DWC/tools/FileUpdateWlpList.properties
+ changing/opt/TWS/DWC/usr/servers/dwcServer/server.env
+Replace variable. WAINST101I Replacing '$(httpPort)' with '9444' in file '/opt/TWS/DWC/usr/servers/dwcServer/server.env' coming from 'httpPort'
+Replace variable. WAINST101I Replacing '$(httpsPort)' with '9443' in file '/opt/TWS/DWC/usr/servers/dwcServer/server.env' coming from 'httpsPort'
+Replace variable. WAINST101I Replacing '$(wlpUser)' with 'dwcadmin' in file '/opt/TWS/DWC/usr/servers/dwcServer/server.env' coming from 'wlpUser'
+Replace variable. WAINST101I Replacing '$(wlpPassword)' with '********' in file '/opt/TWS/DWC/usr/servers/dwcServer/server.env' coming from 'wlpPassword'
+Replace variable. WAINST101I Replacing '$(wlp_install_dir)' with '/opt/TWS/WLP/wlp' in file '/opt/TWS/DWC/usr/servers/dwcServer/server.env' coming from 'wlp_install_dir'
+Replace variable. WAINST101I Replacing '$(install_dir)' with '/opt/TWS/DWC' in file '/opt/TWS/DWC/usr/servers/dwcServer/server.env' coming from 'install_dir'
+Replace variable. WAINST101I Replacing '$(sslbegin_dir)' with '/usr/Tivoli' in file '/opt/TWS/DWC/usr/servers/dwcServer/server.env' coming from 'sslbegin_dir'
+Replace variable. WAINST101I Replacing '$(serverName)' with 'dwcServer' in file '/opt/TWS/DWC/usr/servers/dwcServer/server.env' coming from 'serverName'
+Replace variable. WAINST101I Replacing '$(wlp_user_dir)' with '/opt/TWS/DWC/usr' in file '/opt/TWS/DWC/usr/servers/dwcServer/server.env' coming from 'wlp_user_dir'
+Replace variable. WAINST101I Replacing '$(java_home)' with '/opt/TWS/DWC/java/jre' in file '/opt/TWS/DWC/usr/servers/dwcServer/server.env' coming from 'java_home'
+Replace variable. WAINST101I Replacing '$(wlp_output_dir)' with '/opt/TWS/DWC/DWC_DATA/stdlist/appserver' in file '/opt/TWS/DWC/usr/servers/dwcServer/server.env' coming from 'wlp_output_dir'
+Replace variable. WAINST101I Replacing '$(.ext5)' with '.sh' in file '/opt/TWS/DWC/usr/servers/dwcServer/server.env' coming from '.ext5'
+Replace variable. WAINST101I Replacing '$(appservertools_dir)' with '/opt/TWS/DWC/appservertools' in file '/opt/TWS/DWC/usr/servers/dwcServer/server.env' coming from 'appservertools_dir'
+Replace variable. WAINST101I Replacing '$(bootstrapPort)' with '12800' in file '/opt/TWS/DWC/usr/servers/dwcServer/server.env' coming from 'bootstrapPort'
+Replace variable. WAINST101I Replacing '$(bootSecPort)' with '19400' in file '/opt/TWS/DWC/usr/servers/dwcServer/server.env' coming from 'bootSecPort'
+Replace variable. WAINST101I Replacing '$(dbcs)' with 'false' in file '/opt/TWS/DWC/usr/servers/dwcServer/server.env' coming from 'dbcs'
+Replace variable. WAINST101I Replacing '$(keystorepw)' with '********' in file '/opt/TWS/DWC/usr/servers/dwcServer/server.env' coming from 'keystorepw'
+Replace variable. WAINST101I Replacing '$(truststorepw)' with '********' in file '/opt/TWS/DWC/usr/servers/dwcServer/server.env' coming from 'truststorepw'
+Replace variable. WAINST101I Replacing '$(hostname)' with 'localhost' in file '/opt/TWS/DWC/usr/servers/dwcServer/server.env' coming from 'hostname'
+Replace variable. WAINST101I Replacing '$(unison_home)' with '/opt/TWS/DWC/TWS' in file '/opt/TWS/DWC/usr/servers/dwcServer/server.env' coming from 'unison_home'
+Replace variable. WAINST101I Replacing '$(unison_work)' with '/opt/TWS/DWC/DWC_DATA' in file '/opt/TWS/DWC/usr/servers/dwcServer/server.env' coming from 'unison_work'
+ reading/opt/TWS/DWC/tools/FileUpdateWlpList.properties
+ changing/opt/TWS/DWC/usr/servers/dwcServer/jvm.options
+Replace variable. WAINST101I Replacing '$(httpPort)' with '9444' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'httpPort'
+Replace variable. WAINST101I Replacing '$(httpsPort)' with '9443' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'httpsPort'
+Replace variable. WAINST101I Replacing '$(wlpUser)' with 'dwcadmin' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'wlpUser'
+Replace variable. WAINST101I Replacing '$(wlpPassword)' with '********' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'wlpPassword'
+Replace variable. WAINST101I Replacing '$(wlp_install_dir)' with '/opt/TWS/WLP/wlp' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'wlp_install_dir'
+Replace variable. WAINST101I Replacing '$(install_dir)' with '/opt/TWS/DWC' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'install_dir'
+Replace variable. WAINST101I Replacing '$(sslbegin_dir)' with '/usr/Tivoli' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'sslbegin_dir'
+Replace variable. WAINST101I Replacing '$(serverName)' with 'dwcServer' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'serverName'
+Replace variable. WAINST101I Replacing '$(wlp_user_dir)' with '/opt/TWS/DWC/usr' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'wlp_user_dir'
+Replace variable. WAINST101I Replacing '$(java_home)' with '/opt/TWS/DWC/java/jre' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'java_home'
+Replace variable. WAINST101I Replacing '$(wlp_output_dir)' with '/opt/TWS/DWC/DWC_DATA/stdlist/appserver' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'wlp_output_dir'
+Replace variable. WAINST101I Replacing '$(.ext5)' with '.sh' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from '.ext5'
+Replace variable. WAINST101I Replacing '$(appservertools_dir)' with '/opt/TWS/DWC/appservertools' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'appservertools_dir'
+Replace variable. WAINST101I Replacing '$(bootstrapPort)' with '12800' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'bootstrapPort'
+Replace variable. WAINST101I Replacing '$(bootSecPort)' with '19400' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'bootSecPort'
+Replace variable. WAINST101I Replacing '$(dbcs)' with 'false' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'dbcs'
+Replace variable. WAINST101I Replacing '$(keystorepw)' with '********' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'keystorepw'
+Replace variable. WAINST101I Replacing '$(truststorepw)' with '********' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'truststorepw'
+Replace variable. WAINST101I Replacing '$(hostname)' with 'localhost' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'hostname'
+Replace variable. WAINST101I Replacing '$(unison_home)' with '/opt/TWS/DWC/TWS' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'unison_home'
+Replace variable. WAINST101I Replacing '$(unison_work)' with '/opt/TWS/DWC/DWC_DATA' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'unison_work'
+ reading/opt/TWS/DWC/tools/FileUpdateWlpList.properties
+ changing/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties
+Replace variable. WAINST101I Replacing '$(httpPort)' with '9444' in file '/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties' coming from 'httpPort'
+Replace variable. WAINST101I Replacing '$(httpsPort)' with '9443' in file '/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties' coming from 'httpsPort'
+Replace variable. WAINST101I Replacing '$(wlpUser)' with 'dwcadmin' in file '/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties' coming from 'wlpUser'
+Replace variable. WAINST101I Replacing '$(wlpPassword)' with '********' in file '/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties' coming from 'wlpPassword'
+Replace variable. WAINST101I Replacing '$(wlp_install_dir)' with '/opt/TWS/WLP/wlp' in file '/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties' coming from 'wlp_install_dir'
+Replace variable. WAINST101I Replacing '$(install_dir)' with '/opt/TWS/DWC' in file '/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties' coming from 'install_dir'
+Replace variable. WAINST101I Replacing '$(sslbegin_dir)' with '/usr/Tivoli' in file '/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties' coming from 'sslbegin_dir'
+Replace variable. WAINST101I Replacing '$(serverName)' with 'dwcServer' in file '/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties' coming from 'serverName'
+Replace variable. WAINST101I Replacing '$(wlp_user_dir)' with '/opt/TWS/DWC/usr' in file '/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties' coming from 'wlp_user_dir'
+Replace variable. WAINST101I Replacing '$(java_home)' with '/opt/TWS/DWC/java/jre' in file '/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties' coming from 'java_home'
+Replace variable. WAINST101I Replacing '$(wlp_output_dir)' with '/opt/TWS/DWC/DWC_DATA/stdlist/appserver' in file '/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties' coming from 'wlp_output_dir'
+Replace variable. WAINST101I Replacing '$(.ext5)' with '.sh' in file '/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties' coming from '.ext5'
+Replace variable. WAINST101I Replacing '$(appservertools_dir)' with '/opt/TWS/DWC/appservertools' in file '/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties' coming from 'appservertools_dir'
+Replace variable. WAINST101I Replacing '$(bootstrapPort)' with '12800' in file '/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties' coming from 'bootstrapPort'
+Replace variable. WAINST101I Replacing '$(bootSecPort)' with '19400' in file '/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties' coming from 'bootSecPort'
+Replace variable. WAINST101I Replacing '$(dbcs)' with 'false' in file '/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties' coming from 'dbcs'
+Replace variable. WAINST101I Replacing '$(keystorepw)' with '********' in file '/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties' coming from 'keystorepw'
+Replace variable. WAINST101I Replacing '$(truststorepw)' with '********' in file '/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties' coming from 'truststorepw'
+Replace variable. WAINST101I Replacing '$(hostname)' with 'localhost' in file '/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties' coming from 'hostname'
+Replace variable. WAINST101I Replacing '$(unison_home)' with '/opt/TWS/DWC/TWS' in file '/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties' coming from 'unison_home'
+Replace variable. WAINST101I Replacing '$(unison_work)' with '/opt/TWS/DWC/DWC_DATA' in file '/opt/TWS/DWC/DWC_DATA/usr/servers/dwcServer/resources/properties/TWSZOSConnConfig.properties' coming from 'unison_work'
+ reading/opt/TWS/DWC/tools/FileUpdateWlpList.properties
+ changing/opt/TWS/DWC/usr/servers/dwcServer/configDropins/defaults/ports_variables.xml
+Replace variable. WAINST101I Replacing '$(httpPort)' with '9444' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/defaults/ports_variables.xml' coming from 'httpPort'
+Replace variable. WAINST101I Replacing '$(httpsPort)' with '9443' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/defaults/ports_variables.xml' coming from 'httpsPort'
+Replace variable. WAINST101I Replacing '$(wlpUser)' with 'dwcadmin' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/defaults/ports_variables.xml' coming from 'wlpUser'
+Replace variable. WAINST101I Replacing '$(wlpPassword)' with '********' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/defaults/ports_variables.xml' coming from 'wlpPassword'
+Replace variable. WAINST101I Replacing '$(wlp_install_dir)' with '/opt/TWS/WLP/wlp' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/defaults/ports_variables.xml' coming from 'wlp_install_dir'
+Replace variable. WAINST101I Replacing '$(install_dir)' with '/opt/TWS/DWC' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/defaults/ports_variables.xml' coming from 'install_dir'
+Replace variable. WAINST101I Replacing '$(sslbegin_dir)' with '/usr/Tivoli' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/defaults/ports_variables.xml' coming from 'sslbegin_dir'
+Replace variable. WAINST101I Replacing '$(serverName)' with 'dwcServer' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/defaults/ports_variables.xml' coming from 'serverName'
+Replace variable. WAINST101I Replacing '$(wlp_user_dir)' with '/opt/TWS/DWC/usr' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/defaults/ports_variables.xml' coming from 'wlp_user_dir'
+Replace variable. WAINST101I Replacing '$(java_home)' with '/opt/TWS/DWC/java/jre' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/defaults/ports_variables.xml' coming from 'java_home'
+Replace variable. WAINST101I Replacing '$(wlp_output_dir)' with '/opt/TWS/DWC/DWC_DATA/stdlist/appserver' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/defaults/ports_variables.xml' coming from 'wlp_output_dir'
+Replace variable. WAINST101I Replacing '$(.ext5)' with '.sh' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/defaults/ports_variables.xml' coming from '.ext5'
+Replace variable. WAINST101I Replacing '$(appservertools_dir)' with '/opt/TWS/DWC/appservertools' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/defaults/ports_variables.xml' coming from 'appservertools_dir'
+Replace variable. WAINST101I Replacing '$(bootstrapPort)' with '12800' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/defaults/ports_variables.xml' coming from 'bootstrapPort'
+Replace variable. WAINST101I Replacing '$(bootSecPort)' with '19400' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/defaults/ports_variables.xml' coming from 'bootSecPort'
+Replace variable. WAINST101I Replacing '$(dbcs)' with 'false' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/defaults/ports_variables.xml' coming from 'dbcs'
+Replace variable. WAINST101I Replacing '$(keystorepw)' with '********' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/defaults/ports_variables.xml' coming from 'keystorepw'
+Replace variable. WAINST101I Replacing '$(truststorepw)' with '********' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/defaults/ports_variables.xml' coming from 'truststorepw'
+Replace variable. WAINST101I Replacing '$(hostname)' with 'localhost' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/defaults/ports_variables.xml' coming from 'hostname'
+Replace variable. WAINST101I Replacing '$(unison_home)' with '/opt/TWS/DWC/TWS' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/defaults/ports_variables.xml' coming from 'unison_home'
+Replace variable. WAINST101I Replacing '$(unison_work)' with '/opt/TWS/DWC/DWC_DATA' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/defaults/ports_variables.xml' coming from 'unison_work'
+ reading/opt/TWS/DWC/tools/FileUpdateWlpList.properties
+ changing/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ports_variables.xml
+Replace variable. WAINST101I Replacing '$(httpPort)' with '9444' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ports_variables.xml' coming from 'httpPort'
+Replace variable. WAINST101I Replacing '$(httpsPort)' with '9443' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ports_variables.xml' coming from 'httpsPort'
+Replace variable. WAINST101I Replacing '$(wlpUser)' with 'dwcadmin' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ports_variables.xml' coming from 'wlpUser'
+Replace variable. WAINST101I Replacing '$(wlpPassword)' with '********' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ports_variables.xml' coming from 'wlpPassword'
+Replace variable. WAINST101I Replacing '$(wlp_install_dir)' with '/opt/TWS/WLP/wlp' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ports_variables.xml' coming from 'wlp_install_dir'
+Replace variable. WAINST101I Replacing '$(install_dir)' with '/opt/TWS/DWC' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ports_variables.xml' coming from 'install_dir'
+Replace variable. WAINST101I Replacing '$(sslbegin_dir)' with '/usr/Tivoli' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ports_variables.xml' coming from 'sslbegin_dir'
+Replace variable. WAINST101I Replacing '$(serverName)' with 'dwcServer' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ports_variables.xml' coming from 'serverName'
+Replace variable. WAINST101I Replacing '$(wlp_user_dir)' with '/opt/TWS/DWC/usr' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ports_variables.xml' coming from 'wlp_user_dir'
+Replace variable. WAINST101I Replacing '$(java_home)' with '/opt/TWS/DWC/java/jre' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ports_variables.xml' coming from 'java_home'
+Replace variable. WAINST101I Replacing '$(wlp_output_dir)' with '/opt/TWS/DWC/DWC_DATA/stdlist/appserver' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ports_variables.xml' coming from 'wlp_output_dir'
+Replace variable. WAINST101I Replacing '$(.ext5)' with '.sh' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ports_variables.xml' coming from '.ext5'
+Replace variable. WAINST101I Replacing '$(appservertools_dir)' with '/opt/TWS/DWC/appservertools' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ports_variables.xml' coming from 'appservertools_dir'
+Replace variable. WAINST101I Replacing '$(bootstrapPort)' with '12800' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ports_variables.xml' coming from 'bootstrapPort'
+Replace variable. WAINST101I Replacing '$(bootSecPort)' with '19400' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ports_variables.xml' coming from 'bootSecPort'
+Replace variable. WAINST101I Replacing '$(dbcs)' with 'false' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ports_variables.xml' coming from 'dbcs'
+Replace variable. WAINST101I Replacing '$(keystorepw)' with '********' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ports_variables.xml' coming from 'keystorepw'
+Replace variable. WAINST101I Replacing '$(truststorepw)' with '********' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ports_variables.xml' coming from 'truststorepw'
+Replace variable. WAINST101I Replacing '$(hostname)' with 'localhost' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ports_variables.xml' coming from 'hostname'
+Replace variable. WAINST101I Replacing '$(unison_home)' with '/opt/TWS/DWC/TWS' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ports_variables.xml' coming from 'unison_home'
+Replace variable. WAINST101I Replacing '$(unison_work)' with '/opt/TWS/DWC/DWC_DATA' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ports_variables.xml' coming from 'unison_work'
+ reading/opt/TWS/DWC/tools/FileUpdateWlpList.properties
+ changing/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/wauser_variables.xml
+Replace variable. WAINST101I Replacing '$(httpPort)' with '9444' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/wauser_variables.xml' coming from 'httpPort'
+Replace variable. WAINST101I Replacing '$(httpsPort)' with '9443' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/wauser_variables.xml' coming from 'httpsPort'
+Replace variable. WAINST101I Replacing '$(wlpUser)' with 'dwcadmin' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/wauser_variables.xml' coming from 'wlpUser'
+Replace variable. WAINST101I Replacing '$(wlpPassword)' with '********' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/wauser_variables.xml' coming from 'wlpPassword'
+Replace variable. WAINST101I Replacing '$(wlp_install_dir)' with '/opt/TWS/WLP/wlp' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/wauser_variables.xml' coming from 'wlp_install_dir'
+Replace variable. WAINST101I Replacing '$(install_dir)' with '/opt/TWS/DWC' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/wauser_variables.xml' coming from 'install_dir'
+Replace variable. WAINST101I Replacing '$(sslbegin_dir)' with '/usr/Tivoli' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/wauser_variables.xml' coming from 'sslbegin_dir'
+Replace variable. WAINST101I Replacing '$(serverName)' with 'dwcServer' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/wauser_variables.xml' coming from 'serverName'
+Replace variable. WAINST101I Replacing '$(wlp_user_dir)' with '/opt/TWS/DWC/usr' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/wauser_variables.xml' coming from 'wlp_user_dir'
+Replace variable. WAINST101I Replacing '$(java_home)' with '/opt/TWS/DWC/java/jre' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/wauser_variables.xml' coming from 'java_home'
+Replace variable. WAINST101I Replacing '$(wlp_output_dir)' with '/opt/TWS/DWC/DWC_DATA/stdlist/appserver' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/wauser_variables.xml' coming from 'wlp_output_dir'
+Replace variable. WAINST101I Replacing '$(.ext5)' with '.sh' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/wauser_variables.xml' coming from '.ext5'
+Replace variable. WAINST101I Replacing '$(appservertools_dir)' with '/opt/TWS/DWC/appservertools' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/wauser_variables.xml' coming from 'appservertools_dir'
+Replace variable. WAINST101I Replacing '$(bootstrapPort)' with '12800' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/wauser_variables.xml' coming from 'bootstrapPort'
+Replace variable. WAINST101I Replacing '$(bootSecPort)' with '19400' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/wauser_variables.xml' coming from 'bootSecPort'
+Replace variable. WAINST101I Replacing '$(dbcs)' with 'false' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/wauser_variables.xml' coming from 'dbcs'
+Replace variable. WAINST101I Replacing '$(keystorepw)' with '********' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/wauser_variables.xml' coming from 'keystorepw'
+Replace variable. WAINST101I Replacing '$(truststorepw)' with '********' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/wauser_variables.xml' coming from 'truststorepw'
+Replace variable. WAINST101I Replacing '$(hostname)' with 'localhost' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/wauser_variables.xml' coming from 'hostname'
+Replace variable. WAINST101I Replacing '$(unison_home)' with '/opt/TWS/DWC/TWS' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/wauser_variables.xml' coming from 'unison_home'
+Replace variable. WAINST101I Replacing '$(unison_work)' with '/opt/TWS/DWC/DWC_DATA' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/wauser_variables.xml' coming from 'unison_work'
+ reading/opt/TWS/DWC/tools/FileUpdateWlpList.properties
+ changing/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ssl_variables.xml
+Replace variable. WAINST101I Replacing '$(httpPort)' with '9444' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ssl_variables.xml' coming from 'httpPort'
+Replace variable. WAINST101I Replacing '$(httpsPort)' with '9443' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ssl_variables.xml' coming from 'httpsPort'
+Replace variable. WAINST101I Replacing '$(wlpUser)' with 'dwcadmin' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ssl_variables.xml' coming from 'wlpUser'
+Replace variable. WAINST101I Replacing '$(wlpPassword)' with '********' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ssl_variables.xml' coming from 'wlpPassword'
+Replace variable. WAINST101I Replacing '$(wlp_install_dir)' with '/opt/TWS/WLP/wlp' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ssl_variables.xml' coming from 'wlp_install_dir'
+Replace variable. WAINST101I Replacing '$(install_dir)' with '/opt/TWS/DWC' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ssl_variables.xml' coming from 'install_dir'
+Replace variable. WAINST101I Replacing '$(sslbegin_dir)' with '/usr/Tivoli' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ssl_variables.xml' coming from 'sslbegin_dir'
+Replace variable. WAINST101I Replacing '$(serverName)' with 'dwcServer' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ssl_variables.xml' coming from 'serverName'
+Replace variable. WAINST101I Replacing '$(wlp_user_dir)' with '/opt/TWS/DWC/usr' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ssl_variables.xml' coming from 'wlp_user_dir'
+Replace variable. WAINST101I Replacing '$(java_home)' with '/opt/TWS/DWC/java/jre' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ssl_variables.xml' coming from 'java_home'
+Replace variable. WAINST101I Replacing '$(wlp_output_dir)' with '/opt/TWS/DWC/DWC_DATA/stdlist/appserver' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ssl_variables.xml' coming from 'wlp_output_dir'
+Replace variable. WAINST101I Replacing '$(.ext5)' with '.sh' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ssl_variables.xml' coming from '.ext5'
+Replace variable. WAINST101I Replacing '$(appservertools_dir)' with '/opt/TWS/DWC/appservertools' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ssl_variables.xml' coming from 'appservertools_dir'
+Replace variable. WAINST101I Replacing '$(bootstrapPort)' with '12800' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ssl_variables.xml' coming from 'bootstrapPort'
+Replace variable. WAINST101I Replacing '$(bootSecPort)' with '19400' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ssl_variables.xml' coming from 'bootSecPort'
+Replace variable. WAINST101I Replacing '$(dbcs)' with 'false' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ssl_variables.xml' coming from 'dbcs'
+Replace variable. WAINST101I Replacing '$(keystorepw)' with '********' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ssl_variables.xml' coming from 'keystorepw'
+Replace variable. WAINST101I Replacing '$(truststorepw)' with '********' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ssl_variables.xml' coming from 'truststorepw'
+Replace variable. WAINST101I Replacing '$(hostname)' with 'localhost' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ssl_variables.xml' coming from 'hostname'
+Replace variable. WAINST101I Replacing '$(unison_home)' with '/opt/TWS/DWC/TWS' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ssl_variables.xml' coming from 'unison_home'
+Replace variable. WAINST101I Replacing '$(unison_work)' with '/opt/TWS/DWC/DWC_DATA' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/ssl_variables.xml' coming from 'unison_work'
+ reading/opt/TWS/DWC/tools/FileUpdateWlpList.properties
+ changing/opt/TWS/DWC/appservertools/setEnv.sh
+Replace variable. WAINST101I Replacing '$(httpPort)' with '9444' in file '/opt/TWS/DWC/appservertools/setEnv.sh' coming from 'httpPort'
+Replace variable. WAINST101I Replacing '$(httpsPort)' with '9443' in file '/opt/TWS/DWC/appservertools/setEnv.sh' coming from 'httpsPort'
+Replace variable. WAINST101I Replacing '$(wlpUser)' with 'dwcadmin' in file '/opt/TWS/DWC/appservertools/setEnv.sh' coming from 'wlpUser'
+Replace variable. WAINST101I Replacing '$(wlpPassword)' with '********' in file '/opt/TWS/DWC/appservertools/setEnv.sh' coming from 'wlpPassword'
+Replace variable. WAINST101I Replacing '$(wlp_install_dir)' with '/opt/TWS/WLP/wlp' in file '/opt/TWS/DWC/appservertools/setEnv.sh' coming from 'wlp_install_dir'
+Replace variable. WAINST101I Replacing '$(install_dir)' with '/opt/TWS/DWC' in file '/opt/TWS/DWC/appservertools/setEnv.sh' coming from 'install_dir'
+Replace variable. WAINST101I Replacing '$(sslbegin_dir)' with '/usr/Tivoli' in file '/opt/TWS/DWC/appservertools/setEnv.sh' coming from 'sslbegin_dir'
+Replace variable. WAINST101I Replacing '$(serverName)' with 'dwcServer' in file '/opt/TWS/DWC/appservertools/setEnv.sh' coming from 'serverName'
+Replace variable. WAINST101I Replacing '$(wlp_user_dir)' with '/opt/TWS/DWC/usr' in file '/opt/TWS/DWC/appservertools/setEnv.sh' coming from 'wlp_user_dir'
+Replace variable. WAINST101I Replacing '$(java_home)' with '/opt/TWS/DWC/java/jre' in file '/opt/TWS/DWC/appservertools/setEnv.sh' coming from 'java_home'
+Replace variable. WAINST101I Replacing '$(wlp_output_dir)' with '/opt/TWS/DWC/DWC_DATA/stdlist/appserver' in file '/opt/TWS/DWC/appservertools/setEnv.sh' coming from 'wlp_output_dir'
+Replace variable. WAINST101I Replacing '$(.ext5)' with '.sh' in file '/opt/TWS/DWC/appservertools/setEnv.sh' coming from '.ext5'
+Replace variable. WAINST101I Replacing '$(appservertools_dir)' with '/opt/TWS/DWC/appservertools' in file '/opt/TWS/DWC/appservertools/setEnv.sh' coming from 'appservertools_dir'
+Replace variable. WAINST101I Replacing '$(bootstrapPort)' with '12800' in file '/opt/TWS/DWC/appservertools/setEnv.sh' coming from 'bootstrapPort'
+Replace variable. WAINST101I Replacing '$(bootSecPort)' with '19400' in file '/opt/TWS/DWC/appservertools/setEnv.sh' coming from 'bootSecPort'
+Replace variable. WAINST101I Replacing '$(dbcs)' with 'false' in file '/opt/TWS/DWC/appservertools/setEnv.sh' coming from 'dbcs'
+Replace variable. WAINST101I Replacing '$(keystorepw)' with '********' in file '/opt/TWS/DWC/appservertools/setEnv.sh' coming from 'keystorepw'
+Replace variable. WAINST101I Replacing '$(truststorepw)' with '********' in file '/opt/TWS/DWC/appservertools/setEnv.sh' coming from 'truststorepw'
+Replace variable. WAINST101I Replacing '$(hostname)' with 'localhost' in file '/opt/TWS/DWC/appservertools/setEnv.sh' coming from 'hostname'
+Replace variable. WAINST101I Replacing '$(unison_home)' with '/opt/TWS/DWC/TWS' in file '/opt/TWS/DWC/appservertools/setEnv.sh' coming from 'unison_home'
+Replace variable. WAINST101I Replacing '$(unison_work)' with '/opt/TWS/DWC/DWC_DATA' in file '/opt/TWS/DWC/appservertools/setEnv.sh' coming from 'unison_work'
+ reading/opt/TWS/DWC/tools/FileUpdateWlpList.properties
+ changing/opt/TWS/DWC/appservertools/startAppServer.sh
+Replace variable. WAINST101I Replacing '$(httpPort)' with '9444' in file '/opt/TWS/DWC/appservertools/startAppServer.sh' coming from 'httpPort'
+Replace variable. WAINST101I Replacing '$(httpsPort)' with '9443' in file '/opt/TWS/DWC/appservertools/startAppServer.sh' coming from 'httpsPort'
+Replace variable. WAINST101I Replacing '$(wlpUser)' with 'dwcadmin' in file '/opt/TWS/DWC/appservertools/startAppServer.sh' coming from 'wlpUser'
+Replace variable. WAINST101I Replacing '$(wlpPassword)' with '********' in file '/opt/TWS/DWC/appservertools/startAppServer.sh' coming from 'wlpPassword'
+Replace variable. WAINST101I Replacing '$(wlp_install_dir)' with '/opt/TWS/WLP/wlp' in file '/opt/TWS/DWC/appservertools/startAppServer.sh' coming from 'wlp_install_dir'
+Replace variable. WAINST101I Replacing '$(install_dir)' with '/opt/TWS/DWC' in file '/opt/TWS/DWC/appservertools/startAppServer.sh' coming from 'install_dir'
+Replace variable. WAINST101I Replacing '$(sslbegin_dir)' with '/usr/Tivoli' in file '/opt/TWS/DWC/appservertools/startAppServer.sh' coming from 'sslbegin_dir'
+Replace variable. WAINST101I Replacing '$(serverName)' with 'dwcServer' in file '/opt/TWS/DWC/appservertools/startAppServer.sh' coming from 'serverName'
+Replace variable. WAINST101I Replacing '$(wlp_user_dir)' with '/opt/TWS/DWC/usr' in file '/opt/TWS/DWC/appservertools/startAppServer.sh' coming from 'wlp_user_dir'
+Replace variable. WAINST101I Replacing '$(java_home)' with '/opt/TWS/DWC/java/jre' in file '/opt/TWS/DWC/appservertools/startAppServer.sh' coming from 'java_home'
+Replace variable. WAINST101I Replacing '$(wlp_output_dir)' with '/opt/TWS/DWC/DWC_DATA/stdlist/appserver' in file '/opt/TWS/DWC/appservertools/startAppServer.sh' coming from 'wlp_output_dir'
+Replace variable. WAINST101I Replacing '$(.ext5)' with '.sh' in file '/opt/TWS/DWC/appservertools/startAppServer.sh' coming from '.ext5'
+Replace variable. WAINST101I Replacing '$(appservertools_dir)' with '/opt/TWS/DWC/appservertools' in file '/opt/TWS/DWC/appservertools/startAppServer.sh' coming from 'appservertools_dir'
+Replace variable. WAINST101I Replacing '$(bootstrapPort)' with '12800' in file '/opt/TWS/DWC/appservertools/startAppServer.sh' coming from 'bootstrapPort'
+Replace variable. WAINST101I Replacing '$(bootSecPort)' with '19400' in file '/opt/TWS/DWC/appservertools/startAppServer.sh' coming from 'bootSecPort'
+Replace variable. WAINST101I Replacing '$(dbcs)' with 'false' in file '/opt/TWS/DWC/appservertools/startAppServer.sh' coming from 'dbcs'
+Replace variable. WAINST101I Replacing '$(keystorepw)' with '********' in file '/opt/TWS/DWC/appservertools/startAppServer.sh' coming from 'keystorepw'
+Replace variable. WAINST101I Replacing '$(truststorepw)' with '********' in file '/opt/TWS/DWC/appservertools/startAppServer.sh' coming from 'truststorepw'
+Replace variable. WAINST101I Replacing '$(hostname)' with 'localhost' in file '/opt/TWS/DWC/appservertools/startAppServer.sh' coming from 'hostname'
+Replace variable. WAINST101I Replacing '$(unison_home)' with '/opt/TWS/DWC/TWS' in file '/opt/TWS/DWC/appservertools/startAppServer.sh' coming from 'unison_home'
+Replace variable. WAINST101I Replacing '$(unison_work)' with '/opt/TWS/DWC/DWC_DATA' in file '/opt/TWS/DWC/appservertools/startAppServer.sh' coming from 'unison_work'
+rc=0
+WAINST052I The command configureWlp has completed successfully.

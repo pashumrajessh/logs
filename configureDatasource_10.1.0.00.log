@@ -1,0 +1,127 @@
+***************************************************************
+Sat Nov  4 19:35:54 IST 2023 Sat Nov  4 19:35:54 IST 2023
+Sat Nov  4 19:35:54 IST 2023 ***************************************************************
+Sat Nov  4 19:36:00 IST 2023 DEBUG echo vars after parse template file
+Sat Nov  4 19:36:00 IST 2023 ---------------echoVarsConfDatasource---------------
+Sat Nov  4 19:36:00 IST 2023 
+Sat Nov  4 19:36:00 IST 2023 ----------------------------------------------------
+Sat Nov  4 19:36:00 IST 2023 RDBMS_TYPE_LC        = db2          
+Sat Nov  4 19:36:00 IST 2023 RDBMS_TYPE_UC        = DB2          
+Sat Nov  4 19:36:00 IST 2023 DB_NAME              = TWS             
+Sat Nov  4 19:36:00 IST 2023 DB_USER              = db2tws             
+Sat Nov  4 19:36:00 IST 2023 DB_PASSWORD = xxxxx
+Sat Nov  4 19:36:00 IST 2023 DB_PORT              =              
+Sat Nov  4 19:36:00 IST 2023 DB_HOST_NAME         =         
+Sat Nov  4 19:36:00 IST 2023 DB_DRIVER_PATH       =       
+Sat Nov  4 19:36:00 IST 2023 DATA_DIR             =        
+Sat Nov  4 19:36:00 IST 2023 WA_USER              = root       
+Sat Nov  4 19:36:00 IST 2023 DB_SERVER            =       
+Sat Nov  4 19:36:00 IST 2023 DEBUG echo vars after parse parameters
+Sat Nov  4 19:36:00 IST 2023 ---------------echoVarsConfDb---------------
+Sat Nov  4 19:36:00 IST 2023 
+Sat Nov  4 19:36:00 IST 2023 --------------------------------------------
+Sat Nov  4 19:36:00 IST 2023 WORK_DIR             =             
+Sat Nov  4 19:36:00 IST 2023 WLP_INSTALL_DIR      = /opt/TWS/WLP/wlp     
+Sat Nov  4 19:36:00 IST 2023 CONFDB_LOG_DIR       =       
+Sat Nov  4 19:36:00 IST 2023 RDBMS_TYPE           =           
+Sat Nov  4 19:36:00 IST 2023 COMPONENT_TYPE       =       
+Sat Nov  4 19:36:01 IST 2023 DB_DRIVER_PATH       = /opt/TWS/DWC/jdbcdrivers/db2      
+Sat Nov  4 19:36:01 IST 2023 DB_NAME              = DWC             
+Sat Nov  4 19:36:01 IST 2023 DB_HOST_NAME         = wamdm        
+Sat Nov  4 19:36:01 IST 2023 DB_PORT              = 50000             
+Sat Nov  4 19:36:01 IST 2023 DB_ADMIN_USER        =        
+Sat Nov  4 19:36:01 IST 2023 DB_ADMIN_USER_PWD =
+Sat Nov  4 19:36:01 IST 2023 DB_USER              = db2inst1             
+Sat Nov  4 19:36:01 IST 2023 DB_PASSWORD = xxxxx
+Sat Nov  4 19:36:01 IST 2023 IWS_TS_NAME          =          
+Sat Nov  4 19:36:01 IST 2023 IWS_TS_PATH          =          
+Sat Nov  4 19:36:01 IST 2023 IWS_LOG_TS_NAME      =      
+Sat Nov  4 19:36:01 IST 2023 IWS_LOG_TS_PATH      =      
+Sat Nov  4 19:36:01 IST 2023 IWS_PLAN_TS_NAME     =     
+Sat Nov  4 19:36:01 IST 2023 IWS_PLAN_TS_PATH     =     
+Sat Nov  4 19:36:01 IST 2023 TWS_TS_TEMP_NAME     =     
+Sat Nov  4 19:36:01 IST 2023 DB_SERVER            =            
+Sat Nov  4 19:36:01 IST 2023 USE_PARTITIONING     =     
+Sat Nov  4 19:36:01 IST 2023 TWS_TS_TEMP_NAME     =     
+Sat Nov  4 19:36:01 IST 2023 EXEC_GENERATED_SQL   =   
+Sat Nov  4 19:36:01 IST 2023  ---------------------------------------------------------------------------------------------------------------------------------------------------
+Sat Nov  4 19:36:01 IST 2023  changing log file position from path /opt/TWS/DWC/logs  to data_dir path /opt/TWS/DWC/DWC_DATA/installation/logs 
+Sat Nov  4 19:36:01 IST 2023  ---------------------------------------------------------------------------------------------------------------------------------------------------
+***************************************************************
+Sat Nov  4 19:36:01 IST 2023 Sat Nov  4 19:36:01 IST 2023
+Sat Nov  4 19:36:01 IST 2023 ***************************************************************
+Sat Nov  4 19:36:01 IST 2023 handlePw: CALLER = /opt/TWS/DWC/tools/configureDatasource.sh , SECURE_EXE_DIR = /opt/TWS/DWC/bin , OPEN_SSL_DIR = 
+Sat Nov  4 19:36:01 IST 2023 handle DB_PASSWORD
+Sat Nov  4 19:36:01 IST 2023 execSecure: entry inputPw = ****, secexepath = /opt/TWS/DWC/bin, secureParm = , secureAlg = 
+Sat Nov  4 19:36:01 IST 2023 execSecure: Starting secure
+Sat Nov  4 19:36:01 IST 2023 execSecure: end
+Sat Nov  4 19:36:01 IST 2023 handle DB_ADMIN_USER_PWD
+Sat Nov  4 19:36:01 IST 2023 handle KEY_STORE_PASSWORD
+Sat Nov  4 19:36:01 IST 2023 handle TRUST_STORE_PASSWORD
+Sat Nov  4 19:36:01 IST 2023 handle WA_PASSWORD
+Sat Nov  4 19:36:01 IST 2023 handle SSL_PASSWORD
+Sat Nov  4 19:36:01 IST 2023 handle ENCRYPTION_PASSWORD
+Sat Nov  4 19:36:01 IST 2023 handle LICENSE_PROXY_PASSWORD
+Sat Nov  4 19:36:01 IST 2023 Copying datasource_db2.xml to wlp config dropins dir...
+Sat Nov  4 19:36:01 IST 2023 Invoke cp /opt/TWS/DWC/usr/servers/dwcServer/configDropins/templates/datasources/datasource_db2.xml /opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/datasource.xml
+rc=0
+Sat Nov  4 19:36:01 IST 2023 Invoke chown root /opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/datasource.xml
+rc=0
+Sat Nov  4 19:36:01 IST 2023 Invoke chgrp root /opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/datasource.xml
+rc=0
+Sat Nov  4 19:36:01 IST 2023 Invoke /opt/TWS/DWC/java/jre/bin/java -cp /opt/TWS/DWC/tools/FileUpdate.jar com.hcl.wa.install.FileUpdate FileUpdateListFullPath=/opt/TWS/DWC/tools/FileUpdateDatasourceList.txt install_dir=/opt/TWS/DWC dbname=DWC dbuser=db2inst1 dbpw=xxxxx dbport=50000 dbhost=wamdm jdbcDriversPath=/opt/TWS/DWC/jdbcdrivers/db2 tdwb_schema=DWB data_dir=/opt/TWS/DWC/DWC_DATA dbtype=DB2 wlp_user_dir=/opt/TWS/DWC/usr serverName=dwcServer integratedSecurity=false integratedSecurity=false dbSSLConnection=false dbAlternateServerNames=wamdm dbAlternateServerPorts=50000
+FileUpdate main arg[0] = FileUpdateListFullPath=/opt/TWS/DWC/tools/FileUpdateDatasourceList.txt
+FileUpdate main arg[1] = install_dir=/opt/TWS/DWC
+FileUpdate main arg[2] = dbname=DWC
+FileUpdate main arg[3] = dbuser=db2inst1
+FileUpdate main arg[4] = dbpw=********
+FileUpdate main arg[5] = dbport=50000
+FileUpdate main arg[6] = dbhost=wamdm
+FileUpdate main arg[7] = jdbcDriversPath=/opt/TWS/DWC/jdbcdrivers/db2
+FileUpdate main arg[8] = tdwb_schema=DWB
+FileUpdate main arg[9] = data_dir=/opt/TWS/DWC/DWC_DATA
+FileUpdate main arg[10] = dbtype=DB2
+FileUpdate main arg[11] = wlp_user_dir=/opt/TWS/DWC/usr
+FileUpdate main arg[12] = serverName=dwcServer
+FileUpdate main arg[13] = integratedSecurity=false
+FileUpdate main arg[14] = integratedSecurity=false
+FileUpdate main arg[15] = dbSSLConnection=false
+FileUpdate main arg[16] = dbAlternateServerNames=wamdm
+FileUpdate main arg[17] = dbAlternateServerPorts=50000
+ reading/opt/TWS/DWC/tools/FileUpdateDatasourceList.properties
+ changing/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/datasource.xml
+Replace variable. WAINST101I Replacing '$(dbtype)' with 'DB2' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/datasource.xml' coming from 'dbtype'
+Replace variable. WAINST101I Replacing '$(dbname)' with 'DWC' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/datasource.xml' coming from 'dbname'
+Replace variable. WAINST101I Replacing '$(dbuser)' with 'db2inst1' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/datasource.xml' coming from 'dbuser'
+Replace variable. WAINST101I Replacing '$(dbpw)' with '********' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/datasource.xml' coming from 'dbpw'
+Replace variable. WAINST101I Replacing '$(dbport)' with '50000' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/datasource.xml' coming from 'dbport'
+Replace variable. WAINST101I Replacing '$(dbhost)' with 'wamdm' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/datasource.xml' coming from 'dbhost'
+Replace variable. WAINST101I Replacing '$(jdbcDriversPath)' with '/opt/TWS/DWC/jdbcdrivers/db2' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/datasource.xml' coming from 'jdbcDriversPath'
+Replace variable. WAINST101I Replacing '$(rdbms_name)' with 'DB2' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/datasource.xml' coming from 'dbtype'
+Replace variable. WAINST101I Replacing '$(tdwb_schema)' with 'DWB' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/datasource.xml' coming from 'tdwb_schema'
+Replace variable. WAINST101I Replacing '$(data_dir)' with '/opt/TWS/DWC/DWC_DATA' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/datasource.xml' coming from 'data_dir'
+Replace variable. WAINST101I Replacing '$(serverName)' with 'dwcServer' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/datasource.xml' coming from 'serverName'
+Replace variable. WAINST101I Replacing '$(integratedSecurity)' with 'false' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/datasource.xml' coming from 'integratedSecurity'
+Replace variable. WAINST101I Replacing '$(dbSSLConnection)' with 'false' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/datasource.xml' coming from 'dbSSLConnection'
+Replace variable. WAINST101I Replacing '$(dbAlternateServerNames)' with 'wamdm' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/datasource.xml' coming from 'dbAlternateServerNames'
+Replace variable. WAINST101I Replacing '$(dbAlternateServerPorts)' with '50000' in file '/opt/TWS/DWC/usr/servers/dwcServer/configDropins/overrides/datasource.xml' coming from 'dbAlternateServerPorts'
+WAINST002E File /opt/TWS/DWC/DWC_DATA/broker/config/DAOCommon.properties does not exist.
+ reading/opt/TWS/DWC/tools/FileUpdateDatasourceList.properties
+ changing/opt/TWS/DWC/usr/servers/dwcServer/jvm.options
+Replace variable. WAINST101I Replacing '$(dbtype)' with 'DB2' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'dbtype'
+Replace variable. WAINST101I Replacing '$(dbname)' with 'DWC' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'dbname'
+Replace variable. WAINST101I Replacing '$(dbuser)' with 'db2inst1' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'dbuser'
+Replace variable. WAINST101I Replacing '$(dbpw)' with '********' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'dbpw'
+Replace variable. WAINST101I Replacing '$(dbport)' with '50000' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'dbport'
+Replace variable. WAINST101I Replacing '$(dbhost)' with 'wamdm' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'dbhost'
+Replace variable. WAINST101I Replacing '$(jdbcDriversPath)' with '/opt/TWS/DWC/jdbcdrivers/db2' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'jdbcDriversPath'
+Replace variable. WAINST101I Replacing '$(rdbms_name)' with 'DB2' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'dbtype'
+Replace variable. WAINST101I Replacing '$(tdwb_schema)' with 'DWB' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'tdwb_schema'
+Replace variable. WAINST101I Replacing '$(data_dir)' with '/opt/TWS/DWC/DWC_DATA' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'data_dir'
+Replace variable. WAINST101I Replacing '$(serverName)' with 'dwcServer' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'serverName'
+Replace variable. WAINST101I Replacing '$(integratedSecurity)' with 'false' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'integratedSecurity'
+Replace variable. WAINST101I Replacing '$(dbSSLConnection)' with 'false' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'dbSSLConnection'
+Replace variable. WAINST101I Replacing '$(dbAlternateServerNames)' with 'wamdm' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'dbAlternateServerNames'
+Replace variable. WAINST101I Replacing '$(dbAlternateServerPorts)' with '50000' in file '/opt/TWS/DWC/usr/servers/dwcServer/jvm.options' coming from 'dbAlternateServerPorts'
+rc=0
+WAINST052I The command configureDatasource has completed successfully.

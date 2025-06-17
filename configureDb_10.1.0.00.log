@@ -1,0 +1,212 @@
+***************************************************************
+Sat Nov  4 19:34:03 IST 2023 Sat Nov  4 19:34:03 IST 2023
+Sat Nov  4 19:34:03 IST 2023 ***************************************************************
+Sat Nov  4 19:34:03 IST 2023 setAbsoluteJavaPaths: input JAVA_BIN_DIR = /installers/DWC/java/jre/bin
+Sat Nov  4 19:34:03 IST 2023 setAbsoluteJavaPaths: OS=Linux
+Sat Nov  4 19:34:03 IST 2023 setAbsoluteJavaPaths: using input parameter=/installers/DWC/java/jre/bin
+Sat Nov  4 19:34:03 IST 2023 setAbsoluteJavaPaths Additional check needed for jar.
+Sat Nov  4 19:34:03 IST 2023 setAbsoluteJavaPaths: OS = Linux JAVA_BIN_DIR = /installers/DWC/java/jre/bin  JAR_BIN_DIR = /installers/DWC/java/jre/bin JAVA_HOME = /installers/DWC/java/jre
+Sat Nov  4 19:34:03 IST 2023 setAbsoluteJavaPaths: input JAVA_BIN_DIR = /installers/DWC/../java/jre/bin
+Sat Nov  4 19:34:03 IST 2023 setAbsoluteJavaPaths: OS=Linux
+Sat Nov  4 19:34:03 IST 2023 setAbsoluteJavaPaths: OS = Linux JAVA_BIN_DIR = /installers/DWC/java/jre/bin  JAR_BIN_DIR = /installers/DWC/java/jre/bin JAVA_HOME = /installers/DWC/java/jre
+Sat Nov  4 19:34:03 IST 2023 setAbsoluteJavaPaths: input JAVA_BIN_DIR = /installers/DWC/../Tivoli_Eclipse_LINUX_X86_64/TWS/JavaExt/jre/jre/bin
+Sat Nov  4 19:34:03 IST 2023 setAbsoluteJavaPaths: OS=Linux
+Sat Nov  4 19:34:03 IST 2023 setAbsoluteJavaPaths: OS = Linux JAVA_BIN_DIR = /installers/DWC/java/jre/bin  JAR_BIN_DIR = /installers/DWC/java/jre/bin JAVA_HOME = /installers/DWC/java/jre
+Sat Nov  4 19:34:03 IST 2023 setAbsoluteJavaPaths: input JAVA_BIN_DIR = /installers/DWC/../TWS/JavaExt/jre/jre/bin
+Sat Nov  4 19:34:03 IST 2023 setAbsoluteJavaPaths: OS=Linux
+Sat Nov  4 19:34:03 IST 2023 setAbsoluteJavaPaths: OS = Linux JAVA_BIN_DIR = /installers/DWC/java/jre/bin  JAR_BIN_DIR = /installers/DWC/java/jre/bin JAVA_HOME = /installers/DWC/java/jre
+***************************************************************
+Sat Nov  4 19:34:03 IST 2023 Sat Nov  4 19:34:03 IST 2023
+Sat Nov  4 19:34:03 IST 2023 ***************************************************************
+Sat Nov  4 19:34:09 IST 2023  -----------------------------------
+Sat Nov  4 19:34:09 IST 2023  command: /installers/DWC/configureDb.sh
+Sat Nov  4 19:34:09 IST 2023  -----------------------------------
+Sat Nov  4 19:34:10 IST 2023 ---------------echoVarsConfDb---------------
+Sat Nov  4 19:34:10 IST 2023 echo conf DB vars after parse template file /installers/DWC/configureDb.template
+Sat Nov  4 19:34:10 IST 2023 --------------------------------------------
+Sat Nov  4 19:34:10 IST 2023 WORK_DIR             = /tmp            
+Sat Nov  4 19:34:10 IST 2023 WLP_INSTALL_DIR      =      
+Sat Nov  4 19:34:10 IST 2023 CONFDB_LOG_DIR       = /tmp      
+Sat Nov  4 19:34:10 IST 2023 RDBMS_TYPE           = DB2          
+Sat Nov  4 19:34:10 IST 2023 COMPONENT_TYPE       = DWC      
+Sat Nov  4 19:34:10 IST 2023 DB_DRIVER_PATH       =       
+Sat Nov  4 19:34:10 IST 2023 DB_NAME              = TDWC             
+Sat Nov  4 19:34:10 IST 2023 DB_HOST_NAME         =         
+Sat Nov  4 19:34:10 IST 2023 DB_PORT              = 50000             
+Sat Nov  4 19:34:10 IST 2023 DB_ADMIN_USER        = db2admin       
+Sat Nov  4 19:34:10 IST 2023 DB_ADMIN_USER_PWD =
+Sat Nov  4 19:34:10 IST 2023 DB_USER              = db2dwc             
+Sat Nov  4 19:34:10 IST 2023 DB_PASSWORD =
+Sat Nov  4 19:34:10 IST 2023 IWS_TS_NAME          = TWS_DATA         
+Sat Nov  4 19:34:10 IST 2023 IWS_TS_PATH          = TWS_DATA         
+Sat Nov  4 19:34:10 IST 2023 IWS_LOG_TS_NAME      =      
+Sat Nov  4 19:34:10 IST 2023 IWS_LOG_TS_PATH      =      
+Sat Nov  4 19:34:10 IST 2023 IWS_PLAN_TS_NAME     =     
+Sat Nov  4 19:34:10 IST 2023 IWS_PLAN_TS_PATH     =     
+Sat Nov  4 19:34:10 IST 2023 TWS_TS_TEMP_NAME     =     
+Sat Nov  4 19:34:10 IST 2023 DB_SERVER            =            
+Sat Nov  4 19:34:10 IST 2023 USE_PARTITIONING     =     
+Sat Nov  4 19:34:10 IST 2023 TWS_TS_TEMP_NAME     =     
+Sat Nov  4 19:34:10 IST 2023 EXEC_GENERATED_SQL   = TRUE  
+Sat Nov  4 19:34:10 IST 2023 ---------------echoVarsConfSSL------------------
+Sat Nov  4 19:34:10 IST 2023 echo SSL vars after parse template file /installers/DWC/configureDb.template
+Sat Nov  4 19:34:10 IST 2023 ------------------------------------------------
+Sat Nov  4 19:34:10 IST 2023 DB_SSL_CONNECTION    = false       
+Sat Nov  4 19:34:10 IST 2023 SSL_KEY_FOLDER       =           
+Sat Nov  4 19:34:10 IST 2023 KEY_STORE_PASSWORD =
+Sat Nov  4 19:34:10 IST 2023 TRUST_STORE_PASSWORD =
+Sat Nov  4 19:34:10 IST 2023 SSL_PASSWORD =
+Sat Nov  4 19:34:17 IST 2023 Command input parameters: --dbAlternateNames wamdm --dbAlternatePorts 50000 --dbhostname wamdm --dbadminuserpw xxxxx --dbpassword xxxxx --work_dir /tmp/wa10.1.0.00 --rdbmstype DB2 --componenttype DWC --dbuser db2inst1 --dbadminuser db2inst1 --dbname DWC --dbport 50000 --dbdriverpath /installers/DWC/jdbcdrivers/db2 --dbsslconnection false --log_dir /opt/TWS/DWC/DWC_DATA --wlpdir /opt/TWS/WLP/wlp --action test_connection_to_db
+Sat Nov  4 19:34:17 IST 2023 ---------------echoVarsConfDb---------------
+Sat Nov  4 19:34:17 IST 2023 echo vars after parse parameters from command line
+Sat Nov  4 19:34:17 IST 2023 --------------------------------------------
+Sat Nov  4 19:34:17 IST 2023 WORK_DIR             = /tmp/wa10.1.0.00            
+Sat Nov  4 19:34:17 IST 2023 WLP_INSTALL_DIR      = /opt/TWS/WLP/wlp     
+Sat Nov  4 19:34:17 IST 2023 CONFDB_LOG_DIR       = /opt/TWS/DWC/DWC_DATA      
+Sat Nov  4 19:34:17 IST 2023 RDBMS_TYPE           = DB2          
+Sat Nov  4 19:34:17 IST 2023 COMPONENT_TYPE       = DWC      
+Sat Nov  4 19:34:17 IST 2023 DB_DRIVER_PATH       = /installers/DWC/jdbcdrivers/db2      
+Sat Nov  4 19:34:17 IST 2023 DB_NAME              = DWC             
+Sat Nov  4 19:34:17 IST 2023 DB_HOST_NAME         = wamdm        
+Sat Nov  4 19:34:17 IST 2023 DB_PORT              = 50000             
+Sat Nov  4 19:34:17 IST 2023 DB_ADMIN_USER        = db2inst1       
+Sat Nov  4 19:34:17 IST 2023 DB_ADMIN_USER_PWD = xxxxx
+Sat Nov  4 19:34:17 IST 2023 DB_USER              = db2inst1             
+Sat Nov  4 19:34:17 IST 2023 DB_PASSWORD = xxxxx
+Sat Nov  4 19:34:17 IST 2023 IWS_TS_NAME          = TWS_DATA         
+Sat Nov  4 19:34:17 IST 2023 IWS_TS_PATH          = TWS_DATA         
+Sat Nov  4 19:34:17 IST 2023 IWS_LOG_TS_NAME      =      
+Sat Nov  4 19:34:17 IST 2023 IWS_LOG_TS_PATH      =      
+Sat Nov  4 19:34:17 IST 2023 IWS_PLAN_TS_NAME     =     
+Sat Nov  4 19:34:17 IST 2023 IWS_PLAN_TS_PATH     =     
+Sat Nov  4 19:34:17 IST 2023 TWS_TS_TEMP_NAME     =     
+Sat Nov  4 19:34:17 IST 2023 DB_SERVER            =            
+Sat Nov  4 19:34:17 IST 2023 USE_PARTITIONING     =     
+Sat Nov  4 19:34:17 IST 2023 TWS_TS_TEMP_NAME     =     
+Sat Nov  4 19:34:17 IST 2023 EXEC_GENERATED_SQL   = TRUE  
+Sat Nov  4 19:34:17 IST 2023 ---------------echoVarsConfSSL------------------
+Sat Nov  4 19:34:17 IST 2023 echo SSL vars after parse parameters from command line
+Sat Nov  4 19:34:17 IST 2023 ------------------------------------------------
+Sat Nov  4 19:34:17 IST 2023 DB_SSL_CONNECTION    = false       
+Sat Nov  4 19:34:17 IST 2023 SSL_KEY_FOLDER       =           
+Sat Nov  4 19:34:17 IST 2023 KEY_STORE_PASSWORD =
+Sat Nov  4 19:34:17 IST 2023 TRUST_STORE_PASSWORD =
+Sat Nov  4 19:34:17 IST 2023 SSL_PASSWORD =
+Sat Nov  4 19:34:17 IST 2023 checkDependentParms 1 2 3 --sslpassword 4 --sslkeysfolder 
+Sat Nov  4 19:34:17 IST 2023  ---------------------------------------------------------------------------------------------------------------------------------------------------
+Sat Nov  4 19:34:17 IST 2023  changing log file position from path /root/tmp/wa10.1.0.00/logs  to data_dir path /opt/TWS/DWC/DWC_DATA/installation/logs 
+Sat Nov  4 19:34:17 IST 2023  ---------------------------------------------------------------------------------------------------------------------------------------------------
+***************************************************************
+Sat Nov  4 19:34:17 IST 2023 Sat Nov  4 19:34:17 IST 2023
+Sat Nov  4 19:34:17 IST 2023 ***************************************************************
+Sat Nov  4 19:34:17 IST 2023 handlePw: CALLER = /installers/DWC/configureDb.sh , SECURE_EXE_DIR = /installers/DWC/bin , OPEN_SSL_DIR = 
+Sat Nov  4 19:34:17 IST 2023 handle DB_PASSWORD
+Sat Nov  4 19:34:17 IST 2023 execSecure: entry inputPw = ****, secexepath = /installers/DWC/bin, secureParm = , secureAlg = 
+Sat Nov  4 19:34:17 IST 2023 execSecure: Starting secure
+Sat Nov  4 19:34:17 IST 2023 execSecure: end
+Sat Nov  4 19:34:17 IST 2023 handle DB_ADMIN_USER_PWD
+Sat Nov  4 19:34:17 IST 2023 execSecure: entry inputPw = ****, secexepath = /installers/DWC/bin, secureParm = , secureAlg = 
+Sat Nov  4 19:34:17 IST 2023 execSecure: Starting secure
+Sat Nov  4 19:34:17 IST 2023 execSecure: end
+Sat Nov  4 19:34:17 IST 2023 handle KEY_STORE_PASSWORD
+Sat Nov  4 19:34:17 IST 2023 handle TRUST_STORE_PASSWORD
+Sat Nov  4 19:34:17 IST 2023 handle WA_PASSWORD
+Sat Nov  4 19:34:17 IST 2023 handle SSL_PASSWORD
+Sat Nov  4 19:34:17 IST 2023 handle ENCRYPTION_PASSWORD
+Sat Nov  4 19:34:18 IST 2023 handle LICENSE_PROXY_PASSWORD
+Sat Nov  4 19:34:18 IST 2023 Invoke cp -r /installers/DWC/dblighttool/Readme /installers/DWC/dblighttool/extractDB2DWCDB.properties /installers/DWC/dblighttool/extractDB2IWSDB.properties /installers/DWC/dblighttool/extractIWSDB.bat /installers/DWC/dblighttool/extractIWSDB.sh /installers/DWC/dblighttool/installDB2DWCDB.properties /installers/DWC/dblighttool/installDB2DWCDB.template /installers/DWC/dblighttool/installDB2IWSDB.properties /installers/DWC/dblighttool/installDB2IWSDB.template /installers/DWC/dblighttool/installDB2ZDWCDB.properties /installers/DWC/dblighttool/installDB2ZDWCDB.template /installers/DWC/dblighttool/installIDSDWCDB.properties /installers/DWC/dblighttool/installIDSDWCDB.template /installers/DWC/dblighttool/installIDSIWSDB.properties /installers/DWC/dblighttool/installIDSIWSDB.template /installers/DWC/dblighttool/installMSSQLDWCDB.properties /installers/DWC/dblighttool/installMSSQLDWCDB.template /installers/DWC/dblighttool/installMSSQLIWSDB.properties /installers/DWC/dblighttool/installMSSQLIWSDB.template /installers/DWC/dblighttool/installORACLEDWCDB.properties /installers/DWC/dblighttool/installORACLEDWCDB.template /installers/DWC/dblighttool/installORACLEIWSDB.properties /installers/DWC/dblighttool/installORACLEIWSDB.template /installers/DWC/dblighttool/jars /installers/DWC/dblighttool/launchUpgradeIWSDB.bat /installers/DWC/dblighttool/launchUpgradeIWSDB.sh /installers/DWC/dblighttool/upgradeDB2DWCDB.properties /installers/DWC/dblighttool/upgradeDB2IWSDB.properties /installers/DWC/dblighttool/upgradeIDSDWCDB.properties /installers/DWC/dblighttool/upgradeIDSIWSDB.properties /installers/DWC/dblighttool/upgradeMSSQLDWCDB.properties /installers/DWC/dblighttool/upgradeMSSQLIWSDB.properties /installers/DWC/dblighttool/upgradeORACLEDWCDB.properties /installers/DWC/dblighttool/upgradeORACLEIWSDB.properties /tmp/wa10.1.0.00/dblighttool
+rc=0
+Sat Nov  4 19:34:18 IST 2023 runSecurityScripts 1 /installers/DWC/tools/importServerCert.sh 2 /tmp/wa10.1.0.00/ssl 3 4 5 DWC 6
+Sat Nov  4 19:34:18 IST 2023 runSecurityScripts not running because parameter passed with --sslkeysfolder is blank
+Sat Nov  4 19:34:18 IST 2023 handleRunSecurityScriptsRc rc = 1
+Sat Nov  4 19:34:18 IST 2023 handleRunSecurityScriptsRc: rc from  runSecurityScripts = 1  ok, both sslfolder and sslpassword are blank
+Sat Nov  4 19:34:18 IST 2023 testing connection to db DWC no need to overwrite values
+WAINST093I Checking connection to the database DWC on host wamdm on port 50000 with user db2inst1.
+Sat Nov  4 19:34:18 IST 2023 Invoke cp /installers/DWC/dblighttool/installDB2DWCDB.template /tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties
+rc=0
+Sat Nov  4 19:34:18 IST 2023 Invoke /installers/DWC/java/jre/bin/java -cp /installers/DWC/tools/FileUpdate.jar com.hcl.wa.install.FileUpdate FileUpdateListFullPath=/installers/DWC/tools/FileUpdateDbList.txt IwsOrDwc=DWC testConnection=TRUE dbAlternateServerNames=wamdm dbAlternateServerPorts=50000 dblighttool_dir=/tmp/wa10.1.0.00/dblighttool dbtype=DB2 jdbcDriversPath=/installers/DWC/jdbcdrivers/db2 data_dir= componentType=DWC dbname=DWC dbhost=wamdm dbport=50000 dbadmin=db2inst1 dbadminUserPwd=Ibm123 dbuser=db2inst1 iwsTsName=TWS_DATA iwsTsPath=TWS_DATA execGeneratedSql=TRUE dbpw=Ibm123 check=FALSE dbSSLConnection=FALSE twsServerTrustFile= twsServerTrustPwd= twsServerKeyFile= twsServerKeyPwd=
+FileUpdate main arg[0] = FileUpdateListFullPath=/installers/DWC/tools/FileUpdateDbList.txt
+FileUpdate main arg[1] = IwsOrDwc=DWC
+FileUpdate main arg[2] = testConnection=TRUE
+FileUpdate main arg[3] = dbAlternateServerNames=wamdm
+FileUpdate main arg[4] = dbAlternateServerPorts=50000
+FileUpdate main arg[5] = dblighttool_dir=/tmp/wa10.1.0.00/dblighttool
+FileUpdate main arg[6] = dbtype=DB2
+FileUpdate main arg[7] = jdbcDriversPath=/installers/DWC/jdbcdrivers/db2
+FileUpdate main arg[8] = data_dir=
+FileUpdate main arg[9] = componentType=DWC
+FileUpdate main arg[10] = dbname=DWC
+FileUpdate main arg[11] = dbhost=wamdm
+FileUpdate main arg[12] = dbport=50000
+FileUpdate main arg[13] = dbadmin=db2inst1
+FileUpdate main arg[14] = dbadminUserPwd=********
+FileUpdate main arg[15] = dbuser=db2inst1
+FileUpdate main arg[16] = iwsTsName=TWS_DATA
+FileUpdate main arg[17] = iwsTsPath=TWS_DATA
+FileUpdate main arg[18] = execGeneratedSql=TRUE
+FileUpdate main arg[19] = dbpw=********
+FileUpdate main arg[20] = check=FALSE
+FileUpdate main arg[21] = dbSSLConnection=FALSE
+FileUpdate main arg[22] = twsServerTrustFile=
+FileUpdate main arg[23] = twsServerTrustPwd=********
+FileUpdate main arg[24] = twsServerKeyFile=
+FileUpdate main arg[25] = twsServerKeyPwd=********
+ reading/installers/DWC/tools/FileUpdateDbList.properties
+ changing/tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties
+WAINST104I Setting property 'COMPONENT_TYPE' with value 'DWC' in file '/tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties'
+WAINST104I Setting property 'DB_NAME' with value 'DWC' in file '/tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties'
+WAINST104I Setting property 'DB_HOST_NAME' with value 'wamdm' in file '/tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties'
+WAINST104I Setting property 'DB_PORT' with value '50000' in file '/tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties'
+WAINST104I Setting property 'DB_ADMIN_USER' with value 'db2inst1' in file '/tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties'
+WAINST104I Setting property 'DB_ADMIN_USER_PWD' with value '********' in file '/tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties'
+WAINST104I Setting property 'DB_USER' with value 'db2inst1' in file '/tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties'
+WAINST104I Setting property 'IWS_TS_NAME' with value 'TWS_DATA' in file '/tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties'
+WAINST104I Setting property 'IWS_TS_PATH' with value 'TWS_DATA' in file '/tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties'
+Variable: iwsLogTsName not passed in input to FileUpdate main.
+WARNING: The string @(iwsLogTsName) found in file: /tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties contains variable that has not been passed to FileUpdate main and has not been substituted.
+WARNING: The string @(iwsLogTsName) found in file: /tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties will be added as is.
+WAINST104I Setting property 'IWS_LOG_TS_NAME' with value '@(iwsLogTsName)' in file '/tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties'
+Variable: iwsLogTsPath not passed in input to FileUpdate main.
+WARNING: The string @(iwsLogTsPath) found in file: /tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties contains variable that has not been passed to FileUpdate main and has not been substituted.
+WARNING: The string @(iwsLogTsPath) found in file: /tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties will be added as is.
+WAINST104I Setting property 'IWS_LOG_TS_PATH' with value '@(iwsLogTsPath)' in file '/tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties'
+Variable: iwsPlanTsName not passed in input to FileUpdate main.
+WARNING: The string @(iwsPlanTsName) found in file: /tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties contains variable that has not been passed to FileUpdate main and has not been substituted.
+WARNING: The string @(iwsPlanTsName) found in file: /tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties will be added as is.
+WAINST104I Setting property 'IWS_PLAN_TS_NAME' with value '@(iwsPlanTsName)' in file '/tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties'
+Variable: iwsPlanTsPath not passed in input to FileUpdate main.
+WARNING: The string @(iwsPlanTsPath) found in file: /tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties contains variable that has not been passed to FileUpdate main and has not been substituted.
+WARNING: The string @(iwsPlanTsPath) found in file: /tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties will be added as is.
+WAINST104I Setting property 'IWS_PLAN_TS_PATH' with value '@(iwsPlanTsPath)' in file '/tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties'
+Variable: brokerHostname not passed in input to FileUpdate main.
+WARNING: The string @(brokerHostname) found in file: /tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties contains variable that has not been passed to FileUpdate main and has not been substituted.
+WARNING: The string @(brokerHostname) found in file: /tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties will be added as is.
+WAINST104I Setting property 'BROKER_HOSTNAME' with value '@(brokerHostname)' in file '/tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties'
+WAINST104I Setting property 'EXEC_GENERATED_SQL' with value 'TRUE' in file '/tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties'
+Variable: wauser not passed in input to FileUpdate main.
+WARNING: The string @(wauser) found in file: /tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties contains variable that has not been passed to FileUpdate main and has not been substituted.
+WARNING: The string @(wauser) found in file: /tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties will be added as is.
+WAINST104I Setting property 'WA_USER' with value '@(wauser)' in file '/tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties'
+WAINST104I Setting property 'CHECK_VERSION' with value 'FALSE' in file '/tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties'
+Variable: getMaster not passed in input to FileUpdate main.
+WARNING: The string @(getMaster) found in file: /tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties contains variable that has not been passed to FileUpdate main and has not been substituted.
+WARNING: The string @(getMaster) found in file: /tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties will be added as is.
+WAINST104I Setting property 'GET_MASTER' with value '@(getMaster)' in file '/tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties'
+WAINST104I Setting property 'TEST_CONNECTION' with value 'TRUE' in file '/tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties'
+WAINST104I Setting property 'SSL_CONNECTION' with value 'FALSE' in file '/tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties'
+WAINST104I Setting property 'javax.net.ssl.trustStore' with value '' in file '/tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties'
+WAINST104I Setting property 'javax.net.ssl.trustStorePassword' with value '********' in file '/tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties'
+WAINST104I Setting property 'javax.net.ssl.keyStore' with value '' in file '/tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties'
+WAINST104I Setting property 'javax.net.ssl.keyStorePassword' with value '********' in file '/tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties'
+WAINST104I Setting property 'DB_ALTERNATE_SERVER_NAMES' with value 'wamdm' in file '/tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties'
+WAINST104I Setting property 'DB_ALTERNATE_SERVER_PORTS' with value '50000' in file '/tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties'
+rc=0
+Sat Nov  4 19:34:19 IST 2023 Invoke /tmp/wa10.1.0.00/dblighttool/launchUpgradeIWSDB.sh /installers/DWC/java/jre /installers/DWC/jdbcdrivers/db2 /tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties
+Operating System: Linux
+START:       Sat Nov 04 19:34:19 IST 2023
+The DWC database was found.
+rc=0
+Sat Nov  4 19:34:22 IST 2023 evaluateConnectionError: rc = 0  ok
+Sat Nov  4 19:34:22 IST 2023 removeFilesWithPassword : copy from /tmp/wa10.1.0.00/dblighttool/installDB2DWCDB.properties to  FileBackup
+
+WAINST035I For more details see the installation log file: /opt/TWS/DWC/DWC_DATA/installation/logs/configureDb_10.1.0.00.log.
