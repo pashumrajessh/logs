@@ -1,0 +1,38 @@
+<server description="basicRealm">
+	<!-- Declare what basic Registry group has to be used with DWC Administator role -->
+	<variable name="admin.group.name" value="Admins"/>
+	<variable name="logout.url" value="logout.url"/>
+	<jndiEntry value="${admin.group.name}" jndiName="admin.group.name" /> 
+	<jndiEntry value="${logout.url}" jndiName="logout.url" /> 
+	<!-- Assign 'admin' to Administrator -->
+    <administrator-role>
+       <group>${admin.group.name}</group>
+    </administrator-role>
+	
+	<basicRegistry id="basic" realm="TWSRealm">
+	       <!--  This user is defined in wauser_variables.xml, is
+	       		 the DWC user specified at installation time.
+	       	-->
+	       <user name="${user.twsuser.id}" password="${user.twsuser.password}"/>
+	       <!--  
+	       This is used as main Admin group, by default contains the DWC user specified at installation time.
+	       Add below all Adminstrator users member.
+	       -->
+	       <group name="${admin.group.name}">
+           		<member name="${user.twsuser.id}"/>
+            </group>
+	<!-- Sample for adding new user and new groups --> 
+	<!--	
+	   <user name="nonadmin" password="nonadmin"/>
+	   <user name="analyst" password="analyst"/>
+	   <user name="developer" password="developer"/>
+	   <user name="configurator" password="configurator"/>
+	   <user name="operator" password="operator"/>
+	   <group name="Admins">
+           <member name="${user.twsuser.id}"/>
+        </group>
+	 -->
+
+	 </basicRegistry>
+</server>	
+  
